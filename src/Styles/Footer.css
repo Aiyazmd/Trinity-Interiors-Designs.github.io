@@ -1,0 +1,169 @@
+
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  .title{
+    color: #b19777;
+    margin-top:10px;
+    text-shadow: 2px 2px 5px #91806b;
+}
+.footerHome {
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(400px,1fr))  ;
+    grid-template-rows: 280px ;
+    position: relative;
+    top: 500px;
+  background-color: #252430;
+}
+.footerHeadHome{
+  text-align: center;
+  color: white;
+  margin-top:20px
+}
+
+.footerBottomHome {
+  position: relative;
+  top: 41px;
+  background-color: #252430;
+  height: 50px;
+}
+#copyrightHome {
+  color: white;
+  margin-top: 0px;
+  /* margin-left: 50px; */
+  font-size: 15px
+}
+p {
+  margin-bottom: 0rem;
+}
+#termsHome {
+  color: white;
+  margin-top: 0px;
+  /* margin-left: 690px; */
+  font-size: 15px;
+}
+
+.footerContactHome {
+  color: white;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+.footerAddressHome {
+  color: white;
+  font-size: 15px;
+  margin-top:20px
+}
+.footerProjectsHome {
+  color: white;
+  font-size: 25px;
+}
+.footerProjectHome {
+  color: white;
+  margin-top: 20px;
+  font-size: 15px;
+}
+.footerPhoneHome {
+  margin-bottom: -1rem;
+  font-size: 15px;
+  color: white;
+  margin-top:20px
+}
+
+.footerPHome,
+.footerCHome,
+.footerHHome {
+  position: relative;
+ 
+  margin-top: 60px;
+  text-align: center;
+}
+@media screen and (min-width: 990px) and (max-width: 1250px) {
+    *{
+        margin: 0;
+        padding: 0;
+      }
+      .footerHome {
+        display:grid;
+        grid-template-columns:repeat(auto-fit,minmax(320px,1fr))  ;
+        grid-template-rows: 280px ;
+        position: relative;
+        top: 35px; 
+         background-color: #252430;
+    }
+    .footerPHome,
+.footerCHome,
+.footerHHome {
+  position: relative;
+  margin-top: 60px;
+
+}
+}
+@media screen and (min-width: 768px) and (max-width: 990px) {
+    *{
+        margin: 0;
+        padding: 0;
+      }
+      .footerHome {
+        display:grid;
+        grid-template-columns:repeat(auto-fit,minmax(250px,1fr))  ;
+        grid-template-rows: 280px ;
+        position: relative;
+        top: 35px; 
+         background-color: #252430;
+    } 
+}
+@media screen and (min-width: 550px) and (max-width: 768px) {
+    *{
+        margin: 0;
+        padding: 0;
+      }
+      .title{
+        color: #b19777;
+        margin-top:10px;
+       margin-left: 10px;
+        text-shadow: 2px 2px 5px #91806b;
+    }
+    .footerHome {
+        position: relative;
+        top: 254px; 
+        height:700px
+    }
+   .footerCHome{
+        position: absolute;
+        top:30%;
+        left: 20%;
+    }
+    .footerPHome{
+        position: absolute;
+        top:65%;
+        left: 35%;
+    }
+}
+@media screen and (min-width: 410px) and (max-width: 550px) {
+    *{
+        margin: 0;
+        padding: 0;
+      }
+      .title{
+        color: #b19777;
+        margin-top:10px;
+       margin-left: 10px;
+        text-shadow: 2px 2px 5px #91806b;
+    }
+    .footerHome {
+        position: relative;
+        top: 690px; 
+        height:700px
+    }
+   .footerCHome{
+        position: absolute;
+        top:30%;
+        left: 15%;
+    }
+    .footerPHome{
+        position: absolute;
+        top:65%;
+        left: 30%;
+    }
+}

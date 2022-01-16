@@ -1,0 +1,1391 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.AboutMainPic{
+  width: 100%;
+  height: 600px;
+  opacity: 20px;
+  margin-top: -20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.AboutWallcol{
+  position: relative;
+  top: -130px;
+  left: 90px;
+  width: 500px;
+  height: 170px;
+  background-color: #f8f4f3;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  opacity: 0.9;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.AboutHomeHeading{
+  position: relative;
+   top:35px;
+  margin-left:35px; 
+  color:black;
+  font-size:25px
+}
+.AboutPart1{
+  display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(420px,1fr))  ;
+    grid-template-rows: 150px ;
+}
+.AboutPart2{
+  display:grid;
+  grid-template-columns: repeat(auto-fit,minmax(420px,1fr))  ;
+  grid-template-rows: 150px ;
+}
+
+.Aboutbutton{
+  position: relative;
+  top: 20px;
+   left:10%;
+  width: 120px;
+  height: 45px;
+  border-radius: 8px;
+  border: none;
+  background-color: black;
+  color: #b19777;
+  font-size: 13px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.aboutContact{
+  position: absolute;
+  left:50%;
+  top:85%;
+  font-size:30px;
+  color:white;
+}
+.AboutSocial {
+  position: absolute;
+  left:85%;
+  top:85%;
+  font-size:40px;
+
+}
+.Aboutleft{
+  width:450px;
+  height:600px;
+  border-radius: 15px;
+  margin-left: 65px;
+  opacity: 0.9;  
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+}
+.AboutAp1{
+  color: black;
+  font-size: 48px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  margin-bottom: 10px;
+  }
+  .AboutAp2{
+      color: black;
+      font-size: 30px;
+      margin-bottom: 45px;
+      font-family: "Montserrat", sans-serif;
+  }
+  .AboutAp3{
+      color: black;
+      font-weight: 600;
+      text-transform: initial;
+      margin-bottom: 45px;
+      font-size: 16px;
+      color: #333;
+      font-family: "Montserrat", sans-serif;
+  }
+  .AboutAp4{
+      color: black;
+      margin-bottom: 10px;
+      margin-top: 0;
+      font-size: 16px;
+      font-weight: 450;
+      font-family: "Montserrat", sans-serif;
+  }
+  .AboutAp5{
+      color: black;
+      line-height: calc(22/13);
+      margin-bottom: 0;
+      margin-top: 0;
+      font-size: 16px;
+      font-weight: 400;
+      font-family: "Montserrat", sans-serif;
+  }
+  .AboutButton{
+      position: relative;
+      top: 50px;
+       left:65%;
+      width: 120px;
+      height: 45px;
+      border-radius: 8px;
+      border: none;
+      background-color: black;
+      color: #b19777;
+      font-size: 13px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    .AboutPart3{
+      display:grid;
+      grid-template-columns: 1fr 1fr  ;
+      grid-template-rows: 220px 420px;
+    }
+    .AboutPart4{
+      display:grid;
+      grid-template-columns: 1fr 1fr  ;
+      grid-template-rows: 220px 420px;
+    }
+    .AboutPart5{
+      display:grid;
+      grid-template-columns: 1fr 1fr  ;
+      grid-template-rows: 220px 220px;
+      grid-gap:15px;
+     
+    }
+    .AboutAp6{
+      color: black;
+      color: black;
+      font-size: 48px;
+      font-family: "Montserrat", sans-serif;
+      font-weight: bold;
+      position: relative;
+      top:560px;
+      left: 13%;
+  }
+  .AboutCarousel{
+    position:relative;
+    top:500px;
+  }
+  .AboutAp7{
+    color: black;
+    font-size: 48px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    position: relative;
+    top:100px;
+    left: 6%;
+}
+.AboutAp8{
+    color: black;
+    color: black;
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-weight:normal;
+    position: relative;
+    top:100px;
+    left: 6%;
+}
+
+.images__src4,.images__src3,.images__src2,.images__src1 {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  transition: all .2s ease-in-out;
+  border-radius:10px
+}
+.image__text{
+  position: relative;
+  top:250px;
+  left: -10%;
+
+}
+@media screen and (min-width: 990px) and (max-width: 1250px) {
+  .Aboutleft{
+    width:450px;
+    height:550px;
+    border-radius: 15px;
+    margin-left: 0px;
+    opacity: 0.9;  
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+  }
+  .AboutAp1{
+    color: black;
+    font-size: 42px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    margin-bottom: 10px;
+    }
+    .AboutAp2{
+        color: black;
+        font-size: 23px;
+        margin-bottom: 20px;
+        font-family: "Montserrat", sans-serif;
+    }
+    .AboutAp3{
+        color: black;
+        font-weight: 600;
+        text-transform: initial;
+        margin-bottom: 20px;
+        font-size: 14px;
+        color: #333;
+        font-family: "Montserrat", sans-serif;
+    }
+    .AboutAp4{
+        color: black;
+        margin-bottom: 10px;
+        margin-top: 0;
+        font-size: 14px;
+        font-weight: 450;
+        font-family: "Montserrat", sans-serif;
+    }
+    .AboutAp5{
+        color: black;
+        line-height: calc(22/13);
+        font-size: 14px;
+        font-weight: 400;
+        font-family: "Montserrat", sans-serif;
+    }
+    .AboutButton{
+        position: relative;
+        top: 20px;
+         left:65%;
+        width: 120px;
+        height: 40px;
+        border-radius: 8px;
+        border: none;
+        background-color: black;
+        color: #b19777;
+        font-size: 13px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      }
+      .AboutData{
+        margin-top:70px;
+     
+    }
+    .AboutAp8{
+      color: black;
+      color: black;
+      font-size: 18px;
+      font-family: "Montserrat", sans-serif;
+      font-weight:normal;
+      position: relative;
+      top:100px;
+      left: 6%;
+  }
+  .AboutWallcol{
+    left: 45px;
+  }
+  .aboutContact{
+    position: absolute;
+    left:55%;
+    top:87%;
+    font-size:25px;
+    color:white;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 990px) {
+  .AboutPart2{
+    position:relative;
+  }
+  .AboutData{
+    position: relative;
+    top: 12cm;
+  }
+  .AboutPart3{
+    position: relative;
+    top: 10cm;
+  }
+  .AboutPart4{
+    position: relative;
+    top: 9.5cm;
+  }
+  .AboutPart5{
+    position: relative;
+    top: 11.5cm;
+    left: -90px;
+  }
+  .Aboutleft{
+    width:450px;
+    height:550px;
+    border-radius: 15px;
+    opacity: 0.9; 
+    position:absolute;
+    left: 9%; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+  }
+  .AboutAp1 {
+    color: black;
+    font-size: 48px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    margin-bottom: 10px;
+    position: absolute;
+    left: 25%;
+}
+.AboutAp2 {
+  color: black;
+  font-size: 30px;
+  margin-bottom: 45px;
+  position: absolute;
+  font-family: "Montserrat", sans-serif;
+  left: 9%;
+  top: 60px;
+}
+.AboutAp3 {
+  font-weight: 600;
+  text-transform: initial;
+  margin-bottom: 45px;
+  font-size: 16px;
+  position: absolute;
+  color: #333;
+  font-family: "Montserrat", sans-serif;
+  left: 15%;
+  top: 100px;
+}
+.AboutAp4 {
+  color: black;
+  position: absolute;
+  font-size: 16px;
+  font-weight: 450;
+  font-family: "Montserrat", sans-serif;
+  left: 5%;
+  top: 126px;
+  text-align: center;
+}
+.AboutAp5 {
+  color: black;
+  line-height: calc(22/13);
+  margin-bottom: 0;
+  position: absolute;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  left: 2%;
+  top: 185px;
+}
+.AboutAp6 {
+  color: black;
+  color: black;
+  font-size: 40px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  position: absolute;
+  top: 570px;
+  left: 4%;
+}
+.AboutAp7 {
+  color: black;
+  font-size: 48px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  position: absolute;
+  top: 100px;
+  left: 24%;
+}
+.AboutAp8 {
+  color: black;
+  color: black;
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: normal;
+  position: absolute;
+  top: 173px;
+  width: 463px;
+  left: 26%;
+}
+.AboutButton{
+  position: absolute;
+  top: 350px;
+   left:65%;
+  width: 120px;
+  height: 40px;
+  border-radius: 8px;
+  border: none;
+  background-color: black;
+  color: #b19777;
+  font-size: 13px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.images__src4,.images__src3,.images__src2,.images__src1{
+ width: 250px;
+ height: 200px;
+}
+.image__text1{
+  position: relative;
+  left: -8%;
+  top: 233px;
+}
+.Social{
+  position: relative;
+    top: 170px;
+    left: 15px;
+}
+}
+
+
+@media screen and (min-width: 550px) and (max-width: 768px) {
+  .AboutPart2{
+    position:relative;
+  }
+  .AboutWallcol{
+    position: relative;
+    top: -130px;
+    left: 10px;
+    width: 450px;
+    height: 170px;
+    background-color: #f8f4f3;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    opacity: 0.9;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .AboutData{
+    position: relative;
+    top: 13cm;
+  }
+  .AboutPart3{
+    position: relative;
+    top: 20cm;
+    display:flex;
+    flex-direction: column;
+  }
+  .AboutPart4{
+    position: relative;
+    top: 9.5cm;
+    display:flex;
+    flex-direction: column;
+  }
+  .AboutPart5{
+    position: relative;
+    top: 28.5cm;
+    margin-left: 120px;
+    display:flex;
+    flex-direction: column;
+  }
+  .AboutCarousel{
+    position: relative;
+    top: 9cm;
+  
+  }
+  .Aboutleft {
+    width: 409px;
+    height: 550px;
+    border-radius: 15px;
+    opacity: 0.9;
+    position: absolute;
+    left: -2%;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    top: 25%;
+}
+  .AboutAp1 {
+    color: black;
+    font-size: 41px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    margin-bottom: 10px;
+    position: absolute;
+    left: 23%;
+}
+.AboutAp2 {
+  color: black;
+    font-size: 23px;
+    margin-bottom: 45px;
+    position: absolute;
+    font-family: "Montserrat", sans-serif;
+    left: 8%;
+    top: 60px;
+}
+.AboutAp3 {
+  font-weight: 600;
+  text-transform: initial;
+  margin-bottom: 45px;
+  font-size: 16px;
+  position: absolute;
+  color: #333;
+  font-family: "Montserrat", sans-serif;
+  left: 13%;
+  top: 100px;
+}
+.AboutAp4 {
+  color: black;
+  position: absolute;
+  font-size: 16px;
+  font-weight: 450;
+  font-family: "Montserrat", sans-serif;
+  left: 11%;
+  width: 400px;
+  top: 149px;
+  text-align: center;
+
+}
+.AboutAp5 {
+  color: black;
+  line-height: calc(22/13);
+  margin-bottom: 0;
+  position: absolute;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  left: 11%;
+  top: 203px;
+  width: 450px;
+}
+.AboutAp6 {
+  color: black;
+  color: black;
+  font-size: 40px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  position: absolute;
+  top: 260px;
+  left: 25%;
+}
+.AboutAp7 {
+  color: black;
+    font-size: 48px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    position: absolute;
+    top: 20cm;
+  margin-left: 35px;
+}
+.AboutAp8 {
+  color: black;
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: normal;
+  position: absolute;
+  top: 22cm;
+  width: 463px;
+  margin-left: -5px;
+  text-align: center;
+}
+.AboutButton{
+  position: absolute;
+    top: 440px;
+    left: 53%;
+    width: 120px;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    background-color: black;
+    color: #b19777;
+    font-size: 13px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+.images__src4,.images__src3,.images__src2,.images__src1{
+ width: 250px;
+ height: 200px;
+}
+.image__text1{
+  position: absolute;
+  top:6cm;
+  left: 1%;
+  color: white
+}
+.AboutSocial{
+  position: absolute;
+  top: 110%;
+  color: #b19777;
+  left: 8%;
+}
+.aboutContact{
+  position: absolute;
+  top: 105%;
+  color: black;
+  left: 6%;
+}
+.Social{
+  position: relative;
+  top: 4cm;
+  left:2%;
+  color: white;
+}
+}
+@media screen and (min-width: 410px) and (max-width: 550px) {
+  .AboutPart2{
+    position:relative;
+  }
+  .AboutWallcol{
+    position: relative;
+    top: -130px;
+    left: 10px;
+    width: 450px;
+    height: 170px;
+    background-color: #f8f4f3;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    opacity: 0.9;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .AboutData{
+    position: relative;
+    top: 13cm;
+ margin-left: -28px;
+ width:470px
+  }
+  .AboutPart3{
+    position: relative;
+    top: 20cm;
+    display:flex;
+    flex-direction: column;
+  }
+  .AboutPart4{
+    position: relative;
+    top: 9.5cm;
+    display:flex;
+    flex-direction: column;
+  }
+  .AboutPart5{
+    position: relative;
+    top: 28.5cm;
+    margin-left: 120px;
+    display:flex;
+    flex-direction: column;
+  }
+  .AboutCarousel{
+    position: relative;
+    top: 9cm;
+  
+  }
+  .Aboutleft {
+    width: 409px;
+    height: 550px;
+    border-radius: 15px;
+    opacity: 0.9;
+    position: absolute;
+    left: -7%;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    top: 25%;
+}
+  .AboutAp1 {
+    color: black;
+    font-size: 41px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    margin-bottom: 10px;
+    position: absolute;
+    left: 23%;
+}
+.AboutAp2 {
+  color: black;
+    font-size: 22px;
+    margin-bottom: 45px;
+    position: absolute;
+    font-family: "Montserrat", sans-serif;
+    left: 8%;
+    top: 60px;
+}
+.AboutAp3 {
+  font-weight: 600;
+  text-transform: initial;
+  margin-bottom: 45px;
+  font-size: 16px;
+  position: absolute;
+  color: #333;
+  font-family: "Montserrat", sans-serif;
+  left: 13%;
+  top: 100px;
+}
+.AboutAp4 {
+  color: black;
+  position: absolute;
+  font-size: 16px;
+  font-weight: 450;
+  font-family: "Montserrat", sans-serif;
+  left: 11%;
+  width: 400px;
+  top: 149px;
+  text-align: center;
+
+}
+.AboutAp5 {
+  color: black;
+  line-height: calc(22/13);
+  margin-bottom: 0;
+  position: absolute;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  left: 11%;
+  top: 203px;
+  width: 450px;
+}
+.AboutAp6 {
+  color: black;
+  color: black;
+  font-size: 40px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  position: absolute;
+  top: 260px;
+  left: 25%;
+}
+.AboutAp7 {
+  color: black;
+    font-size: 48px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    position: absolute;
+    top: 20cm;
+    margin-left: 28px;
+}
+.AboutAp8 {
+  color: black;
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: normal;
+  position: absolute;
+  top: 22cm;
+  width: 463px;
+  margin-left: -20px;
+  text-align: center;
+}
+.AboutButton{
+  position: absolute;
+    top: 440px;
+    left: 53%;
+    width: 120px;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    background-color: black;
+    color: #b19777;
+    font-size: 13px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+.images__src4,.images__src3,.images__src2,.images__src1{
+ width: 250px;
+ height: 200px;
+}
+.image__text1{
+  position: absolute;
+  top:6cm;
+  left: 1%;
+  color: white
+}
+.AboutSocial{
+  position: absolute;
+  top: 110%;
+  color: #b19777;
+  left: 8%;
+}
+.aboutContact{
+  position: absolute;
+  top: 105%;
+  color: black;
+  left: 6%;
+}
+.Social{
+  position: relative;
+  top: 4cm;
+  left:2%;
+  color: white;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------------------------------------------------------ */
+
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  .Atitle{
+    color: #b19777;
+    margin-top:10px;
+    text-shadow: 2px 2px 5px #91806b;
+}
+.AfooterHome {
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(400px,1fr))  ;
+    grid-template-rows: 280px ;
+    position: relative;
+    top: 0cm;
+  background-color: #252430;
+}
+.AfooterHeadHome{
+  text-align: center;
+  color: white;
+  margin-top:20px
+}
+
+.AfooterBottomHome {
+  position: relative;
+  top: 41px;
+  background-color: #252430;
+  height: 50px;
+}
+#copyrightHome {
+  color: white;
+  margin-top: 0px;
+  /* margin-left: 50px; */
+  font-size: 15px
+}
+p {
+  margin-bottom: 0rem;
+}
+#termsHome {
+  color: white;
+  margin-top: 0px;
+  /* margin-left: 690px; */
+  font-size: 15px;
+}
+
+.AfooterContactHome {
+  color: white;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+.AfooterAddressHome {
+  color: white;
+  font-size: 15px;
+  margin-top:20px
+}
+.AfooterProjectsHome {
+  color: white;
+  font-size: 25px;
+}
+.AfooterProjectHome {
+  color: white;
+  margin-top: 20px;
+  font-size: 15px;
+}
+.AfooterPhoneHome {
+  margin-bottom: -1rem;
+  font-size: 15px;
+  color: white;
+  margin-top:20px
+}
+
+.AfooterPHome,
+.AfooterCHome,
+.AfooterHHome {
+  position: relative;
+ 
+  margin-top: 60px;
+  text-align: center;
+}
+@media screen and (min-width: 990px) and (max-width: 1250px) {
+    *{
+        margin: 0;
+        padding: 0;
+      }
+      .AfooterHome {
+        display:grid;
+        grid-template-columns:repeat(auto-fit,minmax(320px,1fr))  ;
+        grid-template-rows: 280px ;
+        position: relative;
+        top: -11px;
+         background-color: #252430;
+    }
+    .AfooterPHome,
+.AfooterCHome,
+.AfooterHHome {
+  position: relative;
+  margin-top: 60px;
+
+}
+}
+@media screen and (min-width: 768px) and (max-width: 990px) {
+    *{
+        margin: 0;
+        padding: 0;
+      }
+      .AfooterHome {
+        display:grid;
+        grid-template-columns:repeat(auto-fit,minmax(250px,1fr))  ;
+        grid-template-rows: 280px ;
+        position: relative;
+        top: 19cm;
+         background-color: #252430;
+    } 
+}
+@media screen and (min-width: 550px) and (max-width: 768px) {
+    *{
+        margin: 0;
+        padding: 0;
+      }
+      .Atitle{
+        color: #b19777;
+        margin-top:10px;
+       margin-left: 10px;
+        text-shadow: 2px 2px 5px #91806b;
+    }
+    .AfooterHome {
+        position: relative;
+        top: 39.5cm;
+        height:700px
+    }
+   .AfooterCHome{
+        position: absolute;
+        top:30%;
+        left: 19%;
+    }
+    .AfooterPHome{
+        position: absolute;
+        top:65%;
+        left: 34%;
+    }
+}
+@media screen and (min-width: 410px) and (max-width: 550px) {
+    *{
+        margin: 0;
+        padding: 0;
+      }
+      .Atitle{
+        color: #b19777;
+        margin-top:10px;
+       margin-left: 10px;
+        text-shadow: 2px 2px 5px #91806b;
+    }
+    .AfooterHome {
+        position: relative;
+        top: 39.5cm;
+        height:700px
+    }
+   .AfooterCHome{
+        position: absolute;
+        top:30%;
+        left: 15%;
+    }
+    .AfooterPHome{
+        position: absolute;
+        top:65%;
+        left: 30%;
+    }
+}
+
+
+
+
+
+
+
+
+/* @media screen and (min-width: 410px) and (max-width: 550px) {
+  .AboutMainPic{
+    width: 100%;
+    height: 600px;
+    opacity: 20px;
+    margin-top: -20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .AboutWallcol{
+    position: relative;
+    top: -130px;
+    left: 10px;
+    width: 450px;
+    height: 170px;
+    background-color: #f8f4f3;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    opacity: 0.9;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  .AboutHomeHeading{
+    position: relative;
+     top:35px;
+    margin-left:35px; 
+    color:black;
+    font-size:25px
+  }
+  .aboutContact{
+    position: relative;
+    left:10%;
+    top:-60px;
+    font-size:30px;
+    color:black;
+  }
+  .AboutSocial {
+    position: relative;
+    left:10%;
+    top:-60px;
+    font-size:40px;
+    color:black;
+  }
+  .Aboutleft{
+    width:450px;
+    height:550px;
+    border-radius: 15px;
+    margin-left: 0px;
+    opacity: 0.9;  
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+  }
+  .AboutData{
+    margin-top:450px;
+}
+.AboutAp1{
+  color: black;
+  font-size: 48px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+  }
+  .AboutAp2{
+      color: black;
+      font-size: 30px;
+      margin-bottom: 20px;
+      font-family: "Montserrat", sans-serif;
+      text-align: center;
+  }
+  .AboutAp3{
+      color: black;
+      font-weight: 600;
+      text-transform: initial;
+      margin-bottom: 20px;
+      font-size: 16px;
+      color: #333;
+      font-family: "Montserrat", sans-serif;
+      text-align: center;
+  }
+  .AboutAp4{
+      color: black;
+      margin-bottom: 10px;
+      margin-top: 0;
+      font-size: 16px;
+      font-weight: 450;
+      font-family: "Montserrat", sans-serif;
+      text-align: center;
+  }
+  .AboutAp5{
+      color: black;
+      line-height: calc(22/13);
+      margin-bottom: 0;
+      margin-top: 0;
+      font-size: 16px;
+      font-weight: 400;
+      font-family: "Montserrat", sans-serif;
+      text-align: center;
+  }
+  .AboutAp6{
+    color: black;
+    color: black;
+    font-size: 30px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    position: relative;
+    top:150px;
+    left: -15%;
+    width: 350px;
+    text-align: center;
+}
+.AboutCarousel{
+  position:relative;
+  top:80px;
+  left: -50%;
+  width: 350px;
+}
+.AboutAp7{
+  color: black;
+  font-size: 30px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  position: relative;
+  top:-300px;
+  left: -10%;
+  width: 350px;
+  text-align: center;
+}
+.AboutAp8{
+  color: black;
+  color: black;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  font-weight:normal;
+  position: relative;
+  top:-300px;
+  left: 6%;
+}
+
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @import url(https://fonts.googleapis.com/css?family=Nunito+Sans:200,200italic,300,300italic,regular,italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+  .AboutMainPic{
+    width: 100%;
+  height: 600px;
+  opacity: 20px;
+  margin-top: -20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.AboutPart1{
+    position: relative;
+    top:-10px;
+    display:grid;
+    grid-template-columns: 550px  ;
+    grid-template-rows: 150px ;
+}
+.AboutWallcol{
+    position: relative;
+    top: -130px;
+    left: 90px;
+    width: 500px;
+    height: 170px;
+    background-color: #f8f4f3;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    opacity: 0.9;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.aboutContact{
+    position: absolute;
+    left:50%;
+    top:85%;
+    font-size:30px
+  }
+  .AboutSocial {
+    position: absolute;
+    left:85%;
+    top:85%;
+    font-size:40px
+  }
+  .AboutPart2{
+    display:grid;
+    grid-template-columns: 1fr 1fr  ;
+    grid-template-rows: 450px 220px;
+  }
+  .Aboutleft{
+    width:450px;
+    height:600px;
+    border-radius: 15px;
+    margin-left: 65px;
+    opacity: 0.9;  
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+}
+.AboutData{
+    margin-top:100px;
+    width:550px
+}
+.AboutAp1{
+    color: black;
+    font-size: 48px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    margin-bottom: 10px;
+    }
+    .AboutAp2{
+        color: black;
+        font-size: 30px;
+        margin-bottom: 45px;
+        font-family: "Montserrat", sans-serif;
+    }
+    .AboutAp3{
+        color: black;
+        font-weight: 600;
+        text-transform: initial;
+        margin-bottom: 45px;
+        font-size: 16px;
+        color: #333;
+        font-family: "Montserrat", sans-serif;
+    }
+    .AboutAp4{
+        color: black;
+        margin-bottom: 10px;
+        margin-top: 0;
+        font-size: 16px;
+        font-weight: 450;
+        font-family: "Montserrat", sans-serif;
+    }
+    .AboutAp5{
+        color: black;
+        line-height: calc(22/13);
+        margin-bottom: 0;
+        margin-top: 0;
+        font-size: 16px;
+        font-weight: 400;
+        font-family: "Montserrat", sans-serif;
+    }
+    .AboutButton{
+        position: relative;
+        top: 50px;
+         left:65%;
+        width: 120px;
+        height: 45px;
+        border-radius: 8px;
+        border: none;
+        background-color: black;
+        color: #b19777;
+        font-size: 13px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      }
+
+      .AboutPart3{
+        display:grid;
+        grid-template-columns: 1fr 1fr  ;
+        grid-template-rows: 220px 420px;
+      }
+
+      .AboutPart4{
+        display:grid;
+        grid-template-columns: 1fr 1fr  ;
+        grid-template-rows: 420px 420px; 
+      }
+      .AboutPart5{
+        display:grid;
+        grid-template-columns: 1fr 1fr  ;
+        grid-template-rows: 220px 220px; 
+      }
+      .AboutAp7{
+        color: black;
+        font-size: 48px;
+        font-family: "Montserrat", sans-serif;
+        font-weight: bold;
+        position: relative;
+        top:100px;
+        left: 13%;
+    }
+    .AboutAp8{
+        color: black;
+        color: black;
+        font-size: 20px;
+        font-family: "Montserrat", sans-serif;
+        font-weight:normal;
+        position: relative;
+        top:100px;
+        left: 13%;
+    }
+    .AboutAp6{
+        color: black;
+        color: black;
+        font-size: 48px;
+        font-family: "Montserrat", sans-serif;
+        font-weight: bold;
+  
+        position: relative;
+        top:100px;
+        left: 13%;
+    }
+    #container{
+        position: relative;
+        left:8%
+    }
+    
+    h3 {
+      font-size: 1.9rem;
+      color: white;
+    }
+    p {
+      font-size: 1.0rem;
+      color: white;
+    }
+    
+    a {
+      color: white;
+      transition: 0.3s ease;
+    }
+    a:hover {
+      color: rgb(194, 220, 255);
+    }
+    
+    #container {
+      padding: 1rem;
+      max-width: 600px;
+      margin: 1rem auto;
+     
+    }
+    
+    .user-container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-auto-rows: minmax(300px, auto);
+      grid-gap: 0.9rem;
+    }
+    
+    .card {
+      padding: 1rem;
+      background: #f4f4f4;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      height:350px;
+      transition: all 0.4s ease-in-out;
+    }
+    
+    .card:hover {
+      transform: translateY(3px);
+      box-shadow: inset 0 100px 1000px 10px rgba(240, 110, 171, 0.548);
+    }
+    
+    .card:hover .user-content {
+      opacity: 1;
+    }
+    
+    .user-content {
+      opacity: 0;
+      transition: all 0.5s ease-in-out;
+      position: relative;
+    }
+    
+    .bio {
+      position: absolute;
+      top: 260px;
+    }
+    
+    .social {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      right: 0;
+    }
+    
+    .CarouselData{
+      width:400px;
+      height:600px
+    }
+    
+    .images__src {
+      height: 100%;
+      width: 100%;
+      overflow: hidden;
+      transition: all .2s ease-in-out;
+     
+    } */

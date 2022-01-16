@@ -1,0 +1,495 @@
+.GalleryMainPic{
+    width: 100%;
+     height:580px;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   }
+    
+
+.GalleryPart1{
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(420px,1fr))  ;
+    grid-template-rows: 150px ;
+}   
+.GalleryPart2{
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(420px,1fr))  ;
+    grid-template-rows: 150px ;
+}
+.GalleryPart3{
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(420px,1fr))  ;
+    grid-template-rows: 150px ;
+}
+/* .GalleryPart3_1{
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(420px,1fr))  ;
+    grid-template-rows: 250px ;
+    justify-content:end;
+    margin-left: 20px;
+} */
+.GalleryPart3_1{
+    margin-top:100px
+}
+.GalleryPart3_2{
+    margin-top:100px
+}
+.GalleryP1{
+    display:grid;
+    grid-gap:15px;
+    grid-template-columns: repeat(auto-fill,minmax(250px,1fr))  ;
+    grid-template-rows: 200px 200px ;
+}
+.GalleryP2{
+    display:grid;
+    grid-gap:15px;
+    grid-template-columns: repeat(auto-fill,minmax(250px,1fr))  ;
+    grid-template-rows: 200px 200px ;
+   
+}
+.GalleryP3{
+    display:grid;
+    grid-gap:15px;
+    grid-template-columns: repeat(auto-fill,minmax(250px,1fr))  ;
+    grid-template-rows: 200px 200px ;
+   
+}
+.GalleryP4{
+    display:grid;
+    grid-gap:15px;
+    grid-template-columns: repeat(auto-fill,minmax(250px,1fr))  ;
+    grid-template-rows: 200px 200px ;
+   
+}
+.GallWallcol{ 
+    position: relative;
+    top: -130px;
+    left: 10px;
+    width: 400px;
+    height: 170px;
+    background-color: #f8f4f3;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    opacity: 0.9;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
+    .GallHomeHeading{
+        position: relative;
+         top:25px;
+        margin-left:35px; 
+        color:black;
+        font-size:25px
+    }
+    .Gallbutton {
+        position: relative;
+        left:12%;
+        width:150px;
+        top: 30px;
+        height:45px;
+        border-radius:8px;
+        border:none;
+        background-color:rgb(17, 16, 16);
+        color: #B19777;
+      }
+      .galleryContact{
+        position: relative;
+        top:-60px;
+        font-size:30px;
+        color:white
+    }
+    .Galaryh1{
+        color: #b19777;
+        font-size: 50px;
+        font-weight: 700;
+         margin-left: 50px;
+    }
+    .galleryh1{
+        color: #b19777;
+        font-size: 50px;
+        font-weight: 700;
+    }
+    .galleryh2{
+        font-weight: 700;
+        font-size: 50px;
+    }
+    .galleryP1{
+        color: black;
+        font-weight: 400;
+        font-size: 20px;
+    }
+    .image__src {
+        
+        height: 200px;
+        width:220px;
+        overflow: hidden;
+       
+        border-radius:20px;
+    }
+
+.GalleryC2{
+    position: relative;
+
+}
+.GalleryC3{
+    position: relative;
+  
+}
+.GalleryC4{
+    position: relative;
+  
+}
+.Fheading{
+    color: black
+}
+.image__text {
+    --height: 50px;
+    color: #b19777;
+    font-weight: bold;
+    font-size: 1.6rem;
+    z-index: 1;
+    padding: 0 1rem;
+    /* margin-bottom: 10px;
+    margin-top: 10px; */
+    height: var(--height);
+   margin-left: 40px;
+   position: relative;
+   top: 4px;
+}
+.gallerySocial{
+    font-size: 30px;
+    position: relative;
+    top: -50px;
+    left: 50px;
+}
+@media screen and (min-width: 1000px) and (max-width: 1200px) {
+
+    .image__src {   
+        height: 200px;
+        width:200px;
+        overflow: hidden;
+        border-radius:20px;
+    }
+    .GalleryPart3_1{
+        margin-top:100px;
+        margin-left:70px
+    }
+    .image__text {
+        --height: 50px;
+        color: #b19777;
+        font-weight: bold;
+        font-size: 1.6rem;
+        padding: 0 1rem;
+        /* margin-bottom: 10px;
+        margin-top: 10px; */
+        height: var(--height);
+        margin-left: 23px;
+       position: relative;
+       top: 4px;
+    }
+    .gallerySocial{
+        font-size: 30px;
+        position: relative;
+        top: -25px;
+        left: 50px;
+    }
+    .galleryContact {
+        position: relative;
+        top: -60px;
+        font-size: 30px;
+        margin-left: 20px;
+      
+    }
+}
+@media screen and (min-width: 770px) and (max-width: 1000px) {
+    .GalleryPart3_2{
+        position: relative;
+        top: 90%;
+    }
+    .GalleryPart3_2{
+        margin-top:-180px
+    }
+    .galleryContact {
+        position: relative;
+        top: -60px;
+        font-size: 30px;
+        margin-left: 20px;
+       color:black
+    }
+    
+}
+@media screen and (min-width: 570px) and (max-width: 770px) {
+    .GalleryPart3_2{
+        position: relative;
+        top: 110%;
+    }
+    .GalleryPart3_2{
+        margin-top:-160px
+    }
+    .gallerySocial{
+        font-size: 30px;
+        position: relative;
+        top: -25px;
+        left: -3px;
+    }
+    .galleryContact {
+        position: relative;
+        top: -60px;
+        font-size: 30px;
+        margin-left: 20px;
+        color:black
+    }
+}
+@media screen and (min-width: 410px) and (max-width: 570px) {
+    .GalleryP1{
+        display:grid;
+        grid-gap:15px;
+        grid-template-columns: repeat(auto-fill,minmax(190px,1fr))  ;
+        grid-template-rows: 200px 200px ;
+    }
+    .GalleryP2{
+        display:grid;
+        grid-gap:15px;
+        grid-template-columns: repeat(auto-fill,minmax(190px,1fr))  ;
+        grid-template-rows: 200px 200px ;
+       
+    }
+    .GalleryP3{
+        display:grid;
+        grid-gap:15px;
+        grid-template-columns: repeat(auto-fill,minmax(190px,1fr))  ;
+        grid-template-rows: 200px 200px ;
+       
+    }
+    .GalleryP4{
+        display:grid;
+        grid-gap:15px;
+        grid-template-columns: repeat(auto-fill,minmax(190px,1fr))  ;
+        grid-template-rows: 200px 200px ;
+       
+    }
+    .GalleryPart3_2{
+        position: relative;
+        top: 100%;
+       
+    }
+    .GalleryPart3_2{
+        margin-top:0px
+    }
+    .galleryContact {
+        position: relative;
+        top: -60px;
+        font-size: 30px;
+        margin-left: 20px;
+        color:black
+    }
+    .gallerySocial{
+        position: absolute;
+        left: 20%;
+       top:5.5%;
+        font-size: 31px;
+        color: #b19777;
+    }
+ 
+}
+ /* ---------------------------------------------------------------------------------  */
+ 
+ *{
+    margin: 0;
+    padding: 0;
+  }
+  .Gallerytitle{
+    color: #b19777;
+    margin-top:10px;
+    text-shadow: 2px 2px 5px #91806b;
+}
+.GalleryfooterHome {
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(400px,1fr))  ;
+    grid-template-rows: 280px ;
+    position: relative;
+    top: 65cm;
+  background-color: #252430;
+}
+.GalleryfooterHeadHome{
+  text-align: center;
+  color: white;
+  margin-top:20px
+}
+
+.GalleryfooterBottomHome {
+  position: relative;
+  top: 41px;
+  background-color: #252430;
+  height: 50px;
+}
+#copyrightHome {
+  color: white;
+  margin-top: 0px;
+  /* margin-left: 50px; */
+  font-size: 15px
+}
+p {
+  margin-bottom: 0rem;
+}
+#termsHome {
+  color: white;
+  margin-top: 0px;
+  /* margin-left: 690px; */
+  font-size: 15px;
+}
+
+.GalleryfooterContactHome {
+  color: white;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+.GalleryfooterAddressHome {
+  color: white;
+  font-size: 15px;
+  margin-top:20px
+}
+.GalleryfooterProjectsHome {
+  color: white;
+  font-size: 25px;
+}
+.GalleryfooterProjectHome {
+  color: white;
+  margin-top: 20px;
+  font-size: 15px;
+}
+.GalleryfooterPhoneHome {
+  margin-bottom: -1rem;
+  font-size: 15px;
+  color: white;
+  margin-top:20px
+}
+
+.GalleryfooterPHome,
+.GalleryfooterCHome,
+.GalleryfooterHHome {
+  position: relative;
+ 
+  margin-top: 60px;
+  text-align: center;
+}
+@media screen and (min-width: 990px) and (max-width: 1250px) {
+    *{
+        margin: 0;
+        padding: 0;
+      }
+      .GalleryfooterHome {
+        display:grid;
+        grid-template-columns:repeat(auto-fit,minmax(320px,1fr))  ;
+        grid-template-rows: 280px ;
+        position: relative;
+        top: 57cm;
+         background-color: #252430;
+    }
+    .GalleryfooterPHome,
+.GalleryfooterCHome,
+.GalleryfooterHHome {
+  position: relative;
+  margin-top: 60px;
+
+}
+}
+@media screen and (min-width: 768px) and (max-width: 990px) {
+    *{
+        margin: 0;
+        padding: 0;
+      }
+      .GalleryfooterHome {
+        display:grid;
+        grid-template-columns:repeat(auto-fit,minmax(250px,1fr))  ;
+        grid-template-rows: 280px ;
+        position: relative;
+        top: 35px; 
+         background-color: #252430;
+    } 
+}
+@media screen and (min-width: 550px) and (max-width: 768px) {
+    *{
+        margin: 0;
+        padding: 0;
+      }
+      .Gallerytitle{
+        color: #b19777;
+        margin-top:10px;
+       margin-left: 10px;
+        text-shadow: 2px 2px 5px #91806b;
+    }
+    .GalleryfooterHome {
+        position: relative;
+        top: 254px; 
+        height:700px
+    }
+   .GalleryfooterCHome{
+        position: absolute;
+        top:30%;
+        left: 20%;
+    }
+    .GalleryfooterPHome{
+        position: absolute;
+        top:65%;
+        left: 35%;
+    }
+}
+@media screen and (min-width: 410px) and (max-width: 550px) {
+    *{
+        margin: 0;
+        padding: 0;
+      }
+      .Gallerytitle{
+        color: #b19777;
+        margin-top:10px;
+       margin-left: 10px;
+        text-shadow: 2px 2px 5px #91806b;
+    }
+    .GalleryfooterHome {
+        position: relative;
+        height:700px
+    }
+   .GalleryfooterCHome{
+        position: absolute;
+        top:30%;
+        left: 15%;
+    }
+    .GalleryfooterPHome{
+        position: absolute;
+        top:65%;
+        left: 30%;
+    }
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+    .GalleryfooterHome {
+        position: relative;
+        height:280px;
+        top:58cm
+    }
+}
+@media screen and (min-width: 990px) and (max-width: 1201px) {
+    .GalleryfooterHome {
+        position: relative;
+        height:280px;
+        top:98cm
+    }
+}
+@media screen and (min-width: 769px) and (max-width: 990px) {
+    .GalleryfooterHome {
+        position: relative;
+        height:280px;
+        top:58cm
+    }
+}
+@media screen and (min-width: 550px) and (max-width: 769px) {
+    .GalleryfooterHome {
+        position: relative;
+        height:700px;
+        top:56cm
+    }
+}   
+@media screen and (min-width: 410px) and (max-width: 550px) {
+    .GalleryfooterHome {
+        position: relative;
+        height:700px;
+        top:54cm
+    }  
+}

@@ -1,0 +1,20 @@
+/* .Navbar{
+    height:80px;
+    background-color:#E9E0D7;
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+} */
+.title{
+    color: #b19777;
+    margin-left: 50px;
+    margin-top:10px;
+    text-shadow: 2px 2px 5px #91806b;
+}
+@media screen and (min-width: 990px) and (max-width: 1600px) {
+    .Navbar{
+        height:80px;
+        background-color:#E9E0D7;
+        opacity: 1;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+}

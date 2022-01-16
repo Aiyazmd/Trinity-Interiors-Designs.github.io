@@ -1,0 +1,1151 @@
+.Homeimg1{
+    width:100%;
+    height:500px
+}
+.HomePart1{
+    position: relative;
+    top:-10px;
+    display:grid;
+    grid-template-columns: 550px  ;
+    grid-template-rows: 150px ;
+   
+}
+.Wallcol {
+    position: relative;
+    top: -130px;
+    /* width: 500px; */
+    height: 170px;
+    background-color: #f8f4f3;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    opacity: 0.9;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .homeAbout{
+    display:grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 450px 220px;
+    
+  }
+  .Homeimg2{
+    width: 450px;
+    height: 550px;
+    border-radius: 15px;
+    opacity: 0.9;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .Homeimg3{
+    width: 680px;
+    height: 220px;
+    border-radius: 15px; 
+    margin-left: -75px; 
+ 
+  }
+.HomeAbout{
+    width: 550px;
+    height: 650px;
+}
+.AboutP1 {
+    color: #b19777;
+    font-family: "Rubik", Sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin-top: 70px;
+    margin-left: 5px;
+  }
+  .AboutP2 {
+    font-family: "Rubik", Sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 1.4em;
+    margin-top: 20px;
+    margin-left: 0px;
+    color: black;
+    text-align: center;
+  }
+  .AboutP3 {
+    font-family: "Rubik", Sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin-top: 20px;
+    margin-left: 00px;
+    color: black;
+    text-align: center;
+  }
+  .button1 {
+    position: relative;
+    top: 20px;
+    left: 40%;
+    width: 100px;
+    height: 35px;
+    border-radius: 8px;
+    border: none;
+    background-color: black;
+    color: #b19777;
+    font-size: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+.OurService{
+    display:grid;
+    grid-template-columns: 1fr ;
+    grid-template-rows: 50px 50px ;
+    background-color: #f8f4f3;
+    height: 530px;
+    padding:50px
+}
+.service{
+    display:grid;
+    grid-template-columns: repeat(4,1fr) ;
+    background-color: white;
+    height: 380px;
+    margin-top:80px
+}
+.OurServiceP1 {
+    color: #b19777;
+    font-family: "Teko", Sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    letter-spacing: 4px;
+    text-align: center;
+    padding:40px
+  }
+  .OurServiceP2 {
+    font-family: "Playfair Display", Sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 1.4em;
+    letter-spacing: 2px;
+    text-align: center;
+    color: black;
+    padding:50px
+  }
+  .serviceP1 {
+    margin-top: 50px;
+    font-family: "Teko", Sans-serif;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 1.4em;
+    margin-left: 25px;
+    color: rgba(2, 1, 1, 0);
+    -webkit-text-stroke-color: #b19777;
+    -webkit-text-stroke-width: 1px;
+  }
+  .serviceP2 {
+    font-family: "Poppins", Sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.4em;
+    margin: -20px 0px 20px 0px;
+    margin-left: 25px;
+    color: black;
+  }
+  .serviceP3 {
+    color: #888888;
+    font-family: "Poppins", Sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 2em;
+    margin: -30px 0px 0px 0px;
+    margin-left: 25px;
+  }
+  .serviceP4 {
+    font-family: "Teko", Sans-serif;
+    font-size: 13px;
+    font-weight: 299px;
+    line-height: 2.5em;
+    margin: -15px 4px 0px 0px;
+    padding: 0px 10px 0px 10px;
+    display: inline-block;
+    background-color: rgb(17, 16, 16);
+    color: #b19777;
+    border-radius: 10px;
+    margin-left: 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+.processPart{
+    display:grid;
+    grid-template-columns: 1fr ;
+    grid-template-rows: 50px ;
+}
+.processHome {
+    font-family: "Rubik", Sans-serif;
+    font-size: 38px;
+    font-weight: 500;
+    line-height: 1.4em;
+    z-index: 1;
+    margin-top: 50px;
+    /* left:6% */
+  }
+.processPart2{
+    display:grid;
+    grid-template-columns: repeat(4,1fr) ;
+    grid-template-rows: 50px ;
+    margin-top: 200px;
+    height:400px
+}
+  .processDiv{
+    color:black;
+    font-size:20px;
+    background-color: #F8F4F3;
+    height: 320px;
+    width:260px;
+    position: relative;
+    top:-60px;
+    left:10%;
+    border-radius:20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.process1 {
+    font-family: "Poppins", Sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 1.4em;
+    color: #000000;
+  }
+  
+  .process2 {
+    color: black;
+    font-family: "Poppins", Sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 2em;
+  }
+  .process3{
+    color: black;
+    font-family: "Poppins", Sans-serif;
+
+    font-size: 15px;
+    line-height: 2em;
+  }
+
+  .consultation {
+    width: 60px;
+  }
+
+  .processbutton{
+    position: relative;
+    top: -10px;
+    width: 120px;
+    height: 45px;
+    border-radius: 8px;
+    border: none;
+    background-color: black;
+    color: #b19777;
+    font-size: 13px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  @media screen and (min-width: 450px) and (max-width: 650px) {
+    .homeAbout{
+      display:grid;
+      grid-template-columns: 1fr  ;
+      grid-template-rows: 450px 450px;
+      
+    }
+    .Wallcol {
+      position: relative;
+      top: -90px;
+      width: 400px;
+      height: 140px;
+      background-color: #f8f4f3;
+      border-top-left-radius: 20px;
+      border-top-right-radius: 20px;
+      opacity: 0.9;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    .Homeimg2{
+      width: 350px;
+      height: 450px;
+      border-radius: 15px;
+      margin-left:-100px;
+      opacity: 0.9;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    /* .Homeimg3{
+      width: 450px;
+      height: 250px;
+      border-radius: 15px;
+      opacity: 0.9;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      position: relative;
+      left:0%;
+      top:40px
+   
+    } */
+    .Homeimg3{
+      width: 420px;
+      height: 220px;
+      border-radius: 15px; 
+      margin-left: -75px; 
+   
+    }
+    .HomeAbout{
+      width: 550px;
+      height: 650px;
+  }
+  .AboutP1 {
+    color: #b19777;
+    font-family: "Rubik", Sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin-top: 70px;
+    /* margin-left: 23px; */
+    width: 420px;
+
+    }
+    .AboutP2 {
+      font-family: "Rubik", Sans-serif;
+      font-size: 30px;
+      font-weight: 500;
+      line-height: 1.4em;
+      margin-top: 20px;
+      margin-left: 20px;
+      color: black;
+      text-align: center;
+      width:420px
+    }
+    .AboutP3 {
+      font-family: "Rubik", Sans-serif;
+      font-size: 15px;
+      font-weight: 400;
+      letter-spacing: 2px;
+      margin-top: 20px;
+      margin-left: 20px;
+      color: black;
+      text-align: center;
+      width:420px
+    }
+    .button1 {
+      position: relative;
+      top: 20px;
+      left: 20%;
+      width: 100px;
+      height: 35px;
+      border-radius: 8px;
+      border: none;
+      background-color: black;
+      color: #b19777;
+      font-size: 15px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    .OurService{
+      display:grid;
+      grid-template-columns: 1fr ;
+      grid-template-rows: 50px  ;
+      background-color: #f8f4f3;
+      height: 850px;
+      padding:20px;
+      margin-top: 207px;
+  }
+  .OurServiceP2 {
+    font-family: "Playfair Display", Sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 1.4em;
+    letter-spacing: 2px;
+    text-align: center;
+    color: black;
+    padding:30px
+  }
+  .service{
+      display:grid;
+      grid-template-columns: repeat(2,1fr) ;
+       /* grid-template-rows: 400px  400px; */
+      background-color: white;
+      height: 600px;
+      margin-top:0px;
+      margin-left:0px
+  }
+  .serviceP1 {
+      margin-top: 50px;
+      font-family: "Teko", Sans-serif;
+      font-size: 50px;
+      font-weight: 400;
+      line-height: 1.4em;
+      margin-left: -25px;
+      color: rgba(2, 1, 1, 0);
+      -webkit-text-stroke-color: #b19777;
+      -webkit-text-stroke-width: 1px;
+    }
+    .serviceP2 {
+      font-family: "Poppins", Sans-serif;
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 1.2em;
+      margin: -40px 0px 20px 0px;
+      margin-left: -25px;
+      color: black;
+    }
+    .serviceP3 {
+      color: #888888;
+      font-family: "Poppins", Sans-serif;
+      font-size: 13px;
+      font-weight: 400;
+      line-height: 1.5em;
+      margin: -10px 0px 0px 0px;
+      margin-left: 25px;
+      text-align: center;
+      width:160px
+    }
+    .serviceP4 {
+      font-family: "Teko", Sans-serif;
+      font-size: 11px;
+      font-weight: 299px;
+      line-height: 2.5em;
+      margin: 10px 0px 0px 0px;
+      padding: 0px 10px 0px 10px;
+      display: inline-block;
+      background-color: rgb(17, 16, 16);
+      color: #b19777;
+      border-radius: 10px;
+      margin-left: -25px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    .processPart{
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 30px;
+      margin-top: 53px;
+}
+  .processPart2{
+      display:grid;
+      grid-template-columns: 1fr 1fr ;
+      grid-template-rows: 300px  300px;
+      margin-top: 200px;
+  }
+    .processDiv{
+      color:black;
+      font-size:20px;
+      background-color: #F8F4F3;
+      height: 240px;
+      width:180px;
+      position: relative;
+      top:-140px;
+      left:13%;
+      border-radius:20px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  .process1 {
+      font-family: "Poppins", Sans-serif;
+      font-size: 14px;
+      font-weight: 600;
+      line-height: 1.4em;
+      color: #000000;
+    }
+    
+    .process2 {
+      color: black;
+      font-family: "Poppins", Sans-serif;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 2em;
+    }
+    .process3{
+      color: black;
+      font-family: "Poppins", Sans-serif;
+      font-size: 8px;
+      line-height: 2em;
+    }
+  
+    .consultation {
+      width: 60px;
+    }
+  
+    .processbutton{
+      position: relative;
+      top: -10px;
+      width: 90px;
+      height: 32px;
+      border-radius: 8px;
+      border: none;
+      background-color: black;
+      color: #b19777;
+      font-size: 9px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    .processHome {
+      font-family: "Rubik", Sans-serif;
+      font-size: 25px;
+      font-weight: 500;
+      line-height: 0.4em;
+      z-index: 1;
+      margin-top: 30px;
+      /* left:6% */
+    }
+  }
+
+
+  @media screen and (min-width: 650px) and (max-width: 750px) {
+    .homeAbout{
+        display:grid;
+        grid-template-columns: 1fr  ;
+        grid-template-rows: 450px 450px;
+        
+      }
+      .Homeimg2{
+        width: 380px;
+        height: 470px;
+        border-radius: 15px;
+        opacity: 0.9;
+       
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      }
+      .Homeimg3{
+        width: 450px;
+        height: 250px;
+        border-radius: 15px;
+        opacity: 0.9;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        position: relative;
+        left:0%;
+        top:40px
+     
+      }
+    .HomeAbout{
+        width: 550px;
+        height: 650px;
+    }
+    .AboutP1 {
+        color: #b19777;
+        font-family: "Rubik", Sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        letter-spacing: 2px;
+        margin-top: 70px;
+        margin-left: 75px;
+        width:400px;
+      }
+      .AboutP2 {
+        font-family: "Rubik", Sans-serif;
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 1.4em;
+        margin-top: 20px;
+        margin-left: 75px;
+        width:400px;
+        color: black;
+        text-align: center;
+      }
+      .AboutP3 {
+        font-family: "Rubik", Sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+        letter-spacing: 2px;
+        margin-top: 20px;
+        margin-left: 75px;
+        width:400px;
+        color: black;
+        text-align: center;
+    
+      }
+      .button1 {
+        position: relative;
+        top: 20px;
+        left: 20%;
+        width: 100px;
+        height: 35px;
+        border-radius: 8px;
+        border: none;
+        background-color: black;
+        color: #b19777;
+        font-size: 15px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      } 
+      .OurService{
+        display:grid;
+        grid-template-columns: 1fr ;
+        grid-template-rows: 50px  ;
+        background-color: #f8f4f3;
+        height: 970px;
+        padding:20px;
+        margin-top: 307px;
+    }
+    .service{
+        display:grid;
+        grid-template-columns: repeat(2,1fr) ;
+         /* grid-template-rows: 400px  400px; */
+        background-color: white;
+        height: 680px;
+        margin-top:20px;
+        margin-left:-15px
+    }
+    .serviceP1 {
+        margin-top: 50px;
+        font-family: "Teko", Sans-serif;
+        font-size: 60px;
+        font-weight: 400;
+        line-height: 1.4em;
+        margin-left: -25px;
+        color: rgba(2, 1, 1, 0);
+        -webkit-text-stroke-color: #b19777;
+        -webkit-text-stroke-width: 1px;
+      }
+      .serviceP2 {
+        font-family: "Poppins", Sans-serif;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 1.2em;
+        margin: -40px 0px 20px 0px;
+        margin-left: -25px;
+        color: black;
+      }
+      .serviceP3 {
+        color: #888888;
+        font-family: "Poppins", Sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 2em;
+        margin: -10px 0px 0px 0px;
+        margin-left: 5px;
+        text-align: center;
+        width:250px
+      }
+      .serviceP4 {
+        font-family: "Teko", Sans-serif;
+        font-size: 13px;
+        font-weight: 299px;
+        line-height: 2.5em;
+        margin: -10px 0px 0px 0px;
+        padding: 0px 10px 0px 10px;
+        display: inline-block;
+        background-color: rgb(17, 16, 16);
+        color: #b19777;
+        border-radius: 10px;
+        margin-left: -40px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      }
+      .processPart{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 50px;
+        margin-top: 53px;
+}
+    .processPart2{
+        display:grid;
+        grid-template-columns: 1fr 1fr ;
+        grid-template-rows: 400px  400px;
+        margin-top: 200px;
+    }
+      .processDiv{
+        color:black;
+        font-size:20px;
+        background-color: #F8F4F3;
+        height: 280px;
+        width:220px;
+        position: relative;
+        top:-140px;
+        left:15%;
+        border-radius:20px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    
+    .process1 {
+        font-family: "Poppins", Sans-serif;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 1.6em;
+        color: #000000;
+      }
+      
+      .process2 {
+        color: black;
+        font-family: "Poppins", Sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 2em;
+      }
+      .process3{
+        color: black;
+        font-family: "Poppins", Sans-serif;
+        font-size: 10px;
+        line-height: 2em;
+      }
+    
+      .consultation {
+        width: 60px;
+      }
+    
+      .processbutton{
+        position: relative;
+        top: -10px;
+        width: 100px;
+        height: 35px;
+        border-radius: 8px;
+        border: none;
+        background-color: black;
+        color: #b19777;
+        font-size: 11px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      }
+      .processHome {
+        font-family: "Rubik", Sans-serif;
+        font-size: 28px;
+        font-weight: 500;
+        line-height: 0.4em;
+        z-index: 1;
+        margin-top: 23px;
+        /* left:6% */
+      }
+  }
+
+
+  @media screen and (min-width: 750px) and (max-width: 950px) {
+    .homeAbout{
+        display:grid;
+        grid-template-columns: 1fr  ;
+        grid-template-rows: 450px 450px;
+        
+      }
+      .Homeimg2{
+        width: 380px;
+        height: 500px;
+        border-radius: 15px;
+        opacity: 0.9;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      }
+      .Homeimg3{
+        width: 580px;
+        height: 250px;
+        border-radius: 15px;
+        opacity: 0.9;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        position: relative;
+        left:25%;
+        top:40px
+     
+      }
+    .HomeAbout{
+        width: 550px;
+        height: 650px;
+    }
+    .AboutP1 {
+        color: #b19777;
+        font-family: "Rubik", Sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        letter-spacing: 2px;
+        margin-top: 70px;
+        margin-left: 175px;
+        width:400px;
+      }
+      .AboutP2 {
+        font-family: "Rubik", Sans-serif;
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 1.4em;
+        margin-top: 20px;
+        margin-left: 175px;
+        width:400px;
+        color: black;
+        text-align: center;
+      }
+      .AboutP3 {
+        font-family: "Rubik", Sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+        letter-spacing: 2px;
+        margin-top: 20px;
+        margin-left: 175px;
+        width:400px;
+        color: black;
+        text-align: center;
+    
+      }
+      .button1 {
+        position: relative;
+        top: 20px;
+        left: 20%;
+        width: 100px;
+        height: 35px;
+        border-radius: 8px;
+        border: none;
+        background-color: black;
+        color: #b19777;
+        font-size: 15px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      }
+    .OurService{
+        display:grid;
+        grid-template-columns: 1fr ;
+        grid-template-rows: 50px 50px ;
+        background-color: #f8f4f3;
+        height: 870px;
+        padding:50px;
+        margin-top: 307px;
+    }
+    .service{
+        display:grid;
+        grid-template-columns: repeat(2,1fr) ;
+         /* grid-template-rows: 400px  400px; */
+        background-color: white;
+        height: 680px;
+        margin-top:80px
+    }
+    .serviceP1 {
+        margin-top: 50px;
+        font-family: "Teko", Sans-serif;
+        font-size: 60px;
+        font-weight: 400;
+        line-height: 1.4em;
+        /* margin-left: 25px; */
+        color: rgba(2, 1, 1, 0);
+        -webkit-text-stroke-color: #b19777;
+        -webkit-text-stroke-width: 1px;
+      }
+      .serviceP2 {
+        font-family: "Poppins", Sans-serif;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 1.2em;
+        margin: -40px 0px 20px 0px;
+        /* margin-left: 25px; */
+        color: black;
+      }
+      .serviceP3 {
+        color: #888888;
+        font-family: "Poppins", Sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 2em;
+        margin: -10px 0px 0px 0px;
+        margin-left: 38px;
+        text-align: center;
+        width:250px
+      }
+      .serviceP4 {
+        font-family: "Teko", Sans-serif;
+        font-size: 13px;
+        font-weight: 299px;
+        line-height: 2.5em;
+        margin: -10px 0px 0px 0px;
+        padding: 0px 10px 0px 10px;
+        display: inline-block;
+        background-color: rgb(17, 16, 16);
+        color: #b19777;
+        border-radius: 10px;
+        /* margin-left: 40px; */
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      }
+
+    
+    .processPart{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 50px;
+        margin-top: 23px;
+}
+    .processPart2{
+        display:grid;
+        grid-template-columns: 1fr 1fr ;
+        grid-template-rows: 400px  400px;
+        margin-top: 200px;
+    }
+      .processDiv{
+        color:black;
+        font-size:20px;
+        background-color: #F8F4F3;
+        height: 320px;
+        width:260px;
+        position: relative;
+        top:-60px;
+        left:20%;
+        border-radius:20px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    
+    .process1 {
+        font-family: "Poppins", Sans-serif;
+        font-size: 22px;
+        font-weight: 600;
+        line-height: 1.4em;
+        color: #000000;
+      }
+      
+      .process2 {
+        color: black;
+        font-family: "Poppins", Sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 2em;
+      }
+      .process3{
+        color: black;
+        font-family: "Poppins", Sans-serif;
+    
+        font-size: 15px;
+        line-height: 2em;
+      }
+    
+      .consultation {
+        width: 60px;
+      }
+    
+      .processbutton{
+        position: relative;
+        top: -10px;
+        width: 120px;
+        height: 45px;
+        border-radius: 8px;
+        border: none;
+        background-color: black;
+        color: #b19777;
+        font-size: 13px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @media screen and (min-width: 950px) and (max-width: 1250px) {
+    
+  .homeAbout{
+    display:grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 450px 220px;
+    
+  }
+  .Homeimg2{
+    width: 380px;
+    height: 500px;
+    border-radius: 15px;
+    opacity: 0.9;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .Homeimg3{
+    width: 500px;
+    height: 220px;
+    border-radius: 15px; 
+    margin-left: -50px; 
+ 
+  }
+.HomeAbout{
+    width: 550px;
+    height: 650px;
+}
+.AboutP1 {
+    color: #b19777;
+    font-family: "Rubik", Sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin-top: 70px;
+    margin-left: 35px;
+    width:400px;
+  }
+  .AboutP2 {
+    font-family: "Rubik", Sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 1.4em;
+    margin-top: 20px;
+    margin-left: 35px;
+    width:400px;
+    color: black;
+    text-align: center;
+  }
+  .AboutP3 {
+    font-family: "Rubik", Sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin-top: 20px;
+   margin-left: 35px;
+    width:400px;
+    color: black;
+    text-align: center;
+
+  }
+  .button1 {
+    position: relative;
+    top: 20px;
+    left: 20%;
+    width: 100px;
+    height: 35px;
+    border-radius: 8px;
+    border: none;
+    background-color: black;
+    color: #b19777;
+    font-size: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+    .OurService{
+        display:grid;
+        grid-template-columns: 1fr ;
+        grid-template-rows: 50px 50px ;
+        background-color: #f8f4f3;
+        height: 870px;
+        padding:50px
+    }
+    .service{
+        display:grid;
+        grid-template-columns: repeat(2,1fr) ;
+         /* grid-template-rows: 400px  400px; */
+        background-color: white;
+        height: 680px;
+        margin-top:80px
+    }
+    .serviceP1 {
+        margin-top: 50px;
+        font-family: "Teko", Sans-serif;
+        font-size: 60px;
+        font-weight: 400;
+        line-height: 1.4em;
+        margin-left: 25px;
+        color: rgba(2, 1, 1, 0);
+        -webkit-text-stroke-color: #b19777;
+        -webkit-text-stroke-width: 1px;
+      }
+      .serviceP2 {
+        font-family: "Poppins", Sans-serif;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 1.2em;
+        margin: -40px 0px 20px 0px;
+        margin-left: 25px;
+        color: black;
+      }
+      .serviceP3 {
+        color: #888888;
+        font-family: "Poppins", Sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 2em;
+        margin: -10px 0px 0px 0px;
+        margin-left: 88px;
+        text-align: center;
+        width:300px
+      }
+      .serviceP4 {
+        font-family: "Teko", Sans-serif;
+        font-size: 13px;
+        font-weight: 299px;
+        line-height: 2.5em;
+        margin: -15px 4px 0px 0px;
+        padding: 0px 10px 0px 10px;
+        display: inline-block;
+        background-color: rgb(17, 16, 16);
+        color: #b19777;
+        border-radius: 10px;
+        margin-left: 40px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      }
+      .processPart{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 50px;
+        margin-top: 23px;
+}
+    .processPart2{
+        display:grid;
+        grid-template-columns: 1fr 1fr ;
+        grid-template-rows: 400px  400px;
+        margin-top: 200px;
+    }
+      .processDiv{
+        color:black;
+        font-size:20px;
+        background-color: #F8F4F3;
+        height: 320px;
+        width:260px;
+        position: relative;
+        top:-60px;
+        left:30%;
+        border-radius:20px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    
+    .process1 {
+        font-family: "Poppins", Sans-serif;
+        font-size: 22px;
+        font-weight: 600;
+        line-height: 1.4em;
+        color: #000000;
+      }
+      
+      .process2 {
+        color: black;
+        font-family: "Poppins", Sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 2em;
+      }
+      .process3{
+        color: black;
+        font-family: "Poppins", Sans-serif;
+    
+        font-size: 15px;
+        line-height: 2em;
+      }
+    
+      .consultation {
+        width: 60px;
+      }
+    
+      .processbutton{
+        position: relative;
+        top: -10px;
+        width: 120px;
+        height: 45px;
+        border-radius: 8px;
+        border: none;
+        background-color: black;
+        color: #b19777;
+        font-size: 13px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      }
+     
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* @media screen and  (min-width: 460px) {
+  .homeAbout{
+    display:grid;
+    grid-template-columns: auto  ;
+    grid-template-rows: 450px 550px ;
+    
+  }
+  .Homeleft{
+    width: 450px;
+    height: 450px;
+    border-radius: 15px;
+    opacity: 0.9;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+} */

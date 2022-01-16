@@ -1,0 +1,1896 @@
+@media screen and (min-width: 400px) and (max-width: 550px) {
+  *{
+    margin: 0;
+    padding:0;
+}
+.ServiceMainPic {
+width: 100%;
+height: 600px;
+opacity: 20px;
+margin-bottom: 50px;
+margin-top: -20px;
+} 
+.ServiceWallcol{
+position: relative;
+top: -130px;
+width: 380px;
+height: 170px;
+background-color: #f8f4f3;
+border-top-left-radius: 20px;
+border-top-right-radius: 20px;
+opacity: 0.9;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);} 
+.ServiceHomeHeading{
+    position: relative;
+    top:25px;
+   margin-left:35px; 
+   color:black;
+   font-size:25px
+  }
+  .button{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: relative;
+    left:12%;
+    width:150px;
+    top: 30px;
+    height:45px;
+    border-radius:8px;
+    border:none;
+    background-color:rgb(17, 16, 16);
+    color: #B19777;
+  }
+
+  .serviceContact{
+    position: relative;
+    top:-80px;
+
+    margin-left: 50px;
+    font-size:30px
+}
+.serviceSocial{
+    position: relative;
+    top:-80px;
+    margin-left: 50px;
+    font-size:30px
+  }
+  .part1 {
+    position:relative
+  }
+  .part2 {
+    position:relative;
+    top:400px
+  }
+  .part3{
+    position: relative;
+    top: 780px;
+  }
+  .part4{
+    position: relative;
+    top: 40px;
+  }
+  .part5{
+    position: relative;
+    top: 35cm;
+  }
+  .part6{
+    position: relative;
+    top: 44cm
+  }
+  .part7{
+    position: relative;
+    top: 54cm;
+  }
+  .part8{
+    position: relative;
+    top: 63.5cm;
+  }
+  .part9{
+    position: relative;
+    top: 77.5cm;
+  }
+  .part10{
+    position: relative;
+    top: 58cm;
+  }
+  .part11{
+    position: relative;
+    top:95cm
+  }
+  .part12{
+    position: relative;
+    top: 105cm;
+  }
+  .servicePart2{
+    background-color: #FCF8F8;
+    height: 645vh;
+  }
+  .card_img_1 {
+    width: 350px;
+    height: 220px;
+    position: absolute;
+    left: 50px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .card_img_2 {
+    width: 350px;
+    height: 220px;
+    position: absolute;
+    left: 50px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .card-title {
+    font-size: 22px;
+    font-weight: 700;
+    position: absolute;
+    left: 55px;
+    top: 267px;
+    text-align: center;
+    width: 150px;
+  
+  }
+  .card-text {
+    color: black;
+    font-size: 15px;
+    position: absolute;
+    left: 55px;
+    width: 330px;
+    text-align: center;
+    top: 300px;
+  }
+  .card_title_2 {
+    font-size: 22px;
+    font-weight: 700;
+    position: absolute;
+    left: 55px;
+    top: 250px;
+    width: 150px;
+    text-align: center;
+  }
+  .card_text_2 {
+    color: black;
+    font-size: 15px;
+    position: absolute;
+    left: 55px;
+    top: 280px;
+
+    width: 330px;
+    
+    text-align: center;
+  }
+  .stretched-link {
+    position: absolute;
+    left: 60px;
+    top: 360px;
+    margin-bottom: 50px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    background-color: black;
+    color: #b19777;
+    width: 150px;
+    height: 45px;
+    border-radius: 8px;
+  }
+  .stretched_link_2 {
+    position: absolute;
+    left: 60px;
+    top: 355px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    background-color: black;
+    color: #b19777;
+    width: 150px;
+    height: 45px;
+    border-radius: 8px;
+  }
+  .ServiceRight{
+    width: 350px;
+    height: 250px;
+    position: absolute;
+    left: 50px;
+    top:50px;
+    border-radius:15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .ServiceOneRight{
+    width: 350px;
+    height: 250px;
+    position: absolute;
+    left: 50px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    position: absolute;
+    top: 50px;
+
+
+  }
+ 
+  .ServiceNumleft {
+    position: absolute;
+    top: 28cm;
+    left: 55px;
+    font-size: 60px;
+    font-weight: 700;
+    color: #ebcd1e;
+  }
+  .ServiceMeetleft {
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #333333;
+    position: absolute;
+    top: 30cm;
+    left: 55px;
+    width: 250px;
+  }
+  .ServiceDetailleft {
+    color: black;
+    font-size: 15px;
+    width:380px;
+    vertical-align: middle;
+    position: absolute;
+    top: 31.5cm;
+    left: 45px;
+   
+    text-align: center;
+  }
+  .ServiceDetailRight {
+    color: black;
+    font-size: 15px;
+    width: 380px;
+    vertical-align: middle;
+    position: absolute;
+    text-align: center;
+    left: 45px;
+    top: 170px;
+  }
+  .ServiceNumRight {
+    position: absolute;
+    top: 50px;
+    left: 55px;
+    font-size: 60px;
+    font-weight: 700;
+    color: #ebcd1e;
+  }
+  .ServiceMeetRight {
+     font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #333333;
+    position: absolute;
+    top: 120px;
+    left: 55px;
+  }
+  
+  .card_img_3 {
+    width: 350px;
+    height: 220px;
+    position: absolute;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    left: 50px;
+  }
+  .card_img_4 {
+    width: 350px;
+    height: 220px;
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+  }
+  .card_title_3 {
+    font-size: 22px;
+    font-weight: 700;
+    position: absolute;
+    text-align: center;
+    width: 150px;
+    top: 265px;
+    left: 55px;
+  }
+  .card_text_3 {
+    color: black;
+    font-size: 15px;
+    position: absolute;
+    top: 305px;
+    left: 55px;
+    width: 350px;
+    text-align: center;
+  }
+  .card_title_4 {
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+    width: 150px;
+    position: absolute;
+    top: 369px;
+    left: 55px;
+  }
+  .card_text_4 {
+    color: black;
+    font-size: 15px;
+    position: absolute;
+    top: 409px;
+    width: 350px;
+    text-align: center;
+    left: 55px;
+  }
+  .stretched_link_3 {
+    position: absolute;
+    margin-bottom: 50px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    background-color: black;
+    color: #b19777;
+    width: 150px;
+    height: 45px;
+    top: 375px;
+    left: 55px;
+    border-radius: 8px;
+  }
+  .stretched_link_4 {
+    position: absolute;
+    margin-bottom: 50px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    background-color: black;
+    color: #b19777;
+    width: 150px;
+    height: 45px;
+    top: 490px;
+    left: 55px;
+    border-radius: 8px;
+  }
+}
+
+@media screen and (min-width: 550px) and (max-width: 768px) {
+        *{
+            margin: 0;
+            padding:0;
+        }
+    .ServiceMainPic {
+        width: 100%;
+        height: 600px;
+        opacity: 20px;
+        margin-bottom: 50px;
+        margin-top: -20px;
+      } 
+      .ServiceWallcol{
+        position: relative;
+        top: -130px;
+        width: 380px;
+        height: 170px;
+        background-color: #f8f4f3;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        opacity: 0.9;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);} 
+        .ServiceHomeHeading{
+            position: relative;
+            top:25px;
+           margin-left:35px; 
+           color:black;
+           font-size:25px
+          }
+          .button{
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            position: relative;
+            left:12%;
+            width:150px;
+            top: 30px;
+            height:45px;
+            border-radius:8px;
+            border:none;
+            background-color:rgb(17, 16, 16);
+            color: #B19777;
+          }
+    
+          .serviceContact{
+            position: relative;
+            top:-80px;
+            margin-left: 15px;
+            font-size:30px
+        }
+        .serviceSocial{
+            position: relative;
+            top:-80px;
+         left:3%;
+            font-size:30px
+          }
+          .part1 {
+            position:relative
+          }
+          .part2 {
+            position:relative;
+            top:400px
+          }
+          .part3{
+            position: relative;
+            top: 780px;
+          }
+          .part4{
+            position: relative;
+            top: 100px;
+          }
+          .part5{
+            position: relative;
+            top: 37cm;
+          }
+          .part6{
+            position: relative;
+            top: 46cm
+          }
+          .part7{
+            position: relative;
+            top: 57cm;
+          }
+          .part8{
+            position: relative;
+            top: 66.5cm;
+          }
+          .part9{
+            position: relative;
+            top: 80.5cm;
+          }
+          .part10{
+            position: relative;
+            top: 63.5cm;
+          }
+          .part11{
+            position: relative;
+            top:100cm
+          }
+          .part12{
+            position: relative;
+            top: 109.5cm;
+          }
+          .servicePart2{
+            background-color: #FCF8F8;
+            height: 680vh;
+          }
+          .card_img_1 {
+            width: 380px;
+            height: 250px;
+            position: absolute;
+            left: 55px;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          }
+          .card_img_2 {
+            width: 380px;
+            height: 250px;
+            position: absolute;
+            left: 55px;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          }
+    
+          .card-title {
+            font-size: 22px;
+            font-weight: 700;
+            position: absolute;
+            left: 55px;
+            top: 267px;
+            text-align: center;
+            width: 150px;
+          
+          }
+          .card-text {
+            color: black;
+            font-size: 15px;
+            position: absolute;
+            left: 55px;
+            width: 350px;
+            text-align: center;
+            top: 300px;
+          }
+          .card_title_2 {
+            font-size: 22px;
+            font-weight: 700;
+            position: absolute;
+            left: 55px;
+            top: 265px;
+            width: 150px;
+            text-align: center;
+          }
+          .card_text_2 {
+            color: black;
+            font-size: 15px;
+            position: absolute;
+            left: 55px;
+            top: 300px;
+        
+            width: 350px;
+            
+            text-align: center;
+          }
+          .stretched-link {
+            position: absolute;
+            left: 55px;
+            top: 360px;
+            margin-bottom: 50px;
+            box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+            background-color: black;
+            color: #b19777;
+            width: 150px;
+            height: 45px;
+            border-radius: 8px;
+          }
+          .stretched_link_2 {
+            position: absolute;
+            left: 55px;
+            top: 356px;
+            box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+            background-color: black;
+            color: #b19777;
+            width: 150px;
+            height: 45px;
+            border-radius: 8px;
+          }
+          .ServiceRight{
+            height: 330px;
+            width: 380px;
+            position: absolute;
+            left: 55px;
+            top:50px;
+            border-radius:15px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          }
+          .ServiceOneRight{
+            height: 330px;
+            width: 380px;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+            position: absolute;
+            top: 50px;
+            left: 55px;
+        
+          }
+         
+          .ServiceNumleft {
+            position: absolute;
+            top: 28cm;
+            left: 55px;
+            font-size: 60px;
+            font-weight: 700;
+            color: #ebcd1e;
+          }
+          .ServiceMeetleft {
+            font-size: 30px;
+            text-transform: uppercase;
+            font-weight: 700;
+            color: #333333;
+            position: absolute;
+            top: 30cm;
+            left: 55px;
+            width: 250px;
+          }
+          .ServiceDetailleft {
+            color: black;
+            font-size: 15px;
+            width:380px;
+            vertical-align: middle;
+            position: absolute;
+            top: 31.5cm;
+            left: 55px;
+           
+            text-align: center;
+          }
+          .ServiceDetailRight {
+            color: black;
+            font-size: 15px;
+            width: 380px;
+            vertical-align: middle;
+            position: absolute;
+            text-align: center;
+            left: 55px;
+            top: 170px;
+          }
+          .ServiceNumRight {
+            position: absolute;
+            top: 50px;
+            left: 55px;
+            font-size: 60px;
+            font-weight: 700;
+            color: #ebcd1e;
+          }
+          .ServiceMeetRight {
+             font-size: 30px;
+            text-transform: uppercase;
+            font-weight: 700;
+            color: #333333;
+            position: absolute;
+            top: 120px;
+            left: 55px;
+          }
+          
+          .card_img_3 {
+            width: 380px;
+            height: 250px;
+            position: absolute;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+            left: 55px;
+          }
+          .card_img_4 {
+            width: 380px;
+            height: 250px;
+            position: absolute;
+            top: 100px;
+            left: 55px;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+          }
+          .card_title_3 {
+            font-size: 22px;
+            font-weight: 700;
+            position: absolute;
+            text-align: center;
+            width: 150px;
+            top: 265px;
+            left: 55px;
+          }
+          .card_text_3 {
+            color: black;
+            font-size: 15px;
+            position: absolute;
+            top: 305px;
+            left: 55px;
+            width: 350px;
+            text-align: center;
+          }
+          .card_title_4 {
+            font-size: 22px;
+            font-weight: 700;
+            text-align: center;
+            width: 150px;
+            position: absolute;
+            top: 369px;
+            left: 55px;
+          }
+          .card_text_4 {
+            color: black;
+            font-size: 15px;
+            position: absolute;
+            top: 409px;
+            width: 350px;
+            text-align: center;
+            left: 55px;
+          }
+          .stretched_link_3 {
+            position: absolute;
+            margin-bottom: 50px;
+            box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+            background-color: black;
+            color: #b19777;
+            width: 150px;
+            height: 45px;
+            top: 375px;
+            left: 55px;
+            border-radius: 8px;
+          }
+          .stretched_link_4 {
+            position: absolute;
+            margin-bottom: 50px;
+            box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+            background-color: black;
+            color: #b19777;
+            width: 150px;
+            height: 45px;
+            top: 490px;
+            left: 55px;
+            border-radius: 8px;
+          }
+    }
+
+
+
+
+    @media screen and (min-width: 768px) and (max-width: 990px) {
+        *{
+            margin: 0;
+            padding:0;
+        }
+    .ServiceMainPic {
+        width: 100%;
+        height: 600px;
+        opacity: 20px;
+        margin-bottom: 50px;
+        margin-top: -20px;
+      } 
+      .ServiceWallcol{
+        position: relative;
+        top: -130px;
+        width: 380px;
+        height: 170px;
+        background-color: #f8f4f3;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        opacity: 0.9;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      } 
+        .ServiceHomeHeading{
+            position: relative;
+            top:25px;
+           margin-left:35px; 
+           color:black;
+           font-size:25px
+          }
+          .button{
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            position: relative;
+            left:12%;
+            width:150px;
+            top: 30px;
+            height:45px;
+            border-radius:8px;
+            border:none;
+            background-color:rgb(17, 16, 16);
+            color: #B19777;
+          }
+    
+          .serviceContact{
+            position: relative;
+            top:-80px;
+            font-size:30px
+        }
+        .serviceSocial{
+            position: relative;
+            top:-80px;
+          
+            font-size:30px
+          }
+          .servicePart2{
+            background-color: #FCF8F8;
+            height: 680vh;
+          }
+          .part1 {
+            position:relative
+          }
+          .part2 {
+            position:relative;
+            top:400px
+          }
+          .card_img_1 {
+            width: 380px;
+            height: 250px;
+            position: absolute;
+            left: 155px;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          }
+          
+          .card_img_2 {
+            width: 380px;
+            height: 250px;
+            position: absolute;
+            left: 155px;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          }
+    
+          .card-title {
+            font-size: 22px;
+            font-weight: 700;
+            position: absolute;
+            left: 141px;
+            top: 267px;
+            text-align: center;
+            width: 150px;
+          
+          }
+          .card-text {
+            color: black;
+            font-size: 15px;
+            position: absolute;
+            left: 155px;
+            width: 350px;
+            text-align: center;
+            top: 300px;
+          }
+          .card_title_2 {
+            font-size: 22px;
+            font-weight: 700;
+            position: absolute;
+            left: 161px;
+            top: 265px;
+            width: 150px;
+            text-align: center;
+          }
+          .card_text_2 {
+            color: black;
+            font-size: 15px;
+            position: absolute;
+            left: 165px;
+            top: 300px;
+        
+            width: 350px;
+            
+            text-align: center;
+          }
+          .stretched-link {
+            position: absolute;
+            left: 155px;
+            top: 360px;
+            margin-bottom: 50px;
+            box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+            background-color: black;
+            color: #b19777;
+            width: 150px;
+            height: 45px;
+            border-radius: 8px;
+          }
+          .stretched_link_2 {
+            position: absolute;
+            left: 164px;
+            top: 356px;
+            box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+            background-color: black;
+            color: #b19777;
+            width: 150px;
+            height: 45px;
+            border-radius: 8px;
+          }
+          .part3{
+            position: relative;
+            top: 780px;
+          }
+          .ServiceRight{
+            height: 330px;
+            width: 380px;
+            position: absolute;
+            left: 155px;
+            top:50px;
+            border-radius:15px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          }
+          .ServiceOneRight{
+            height: 330px;
+            width: 380px;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+            position: absolute;
+            top: 50px;
+            left: 160px;
+        
+          }
+          .part4{
+            position: relative;
+            top: 100px;
+          }
+          .part5{
+            position: relative;
+            top: 37cm;
+          }
+          .part6{
+            position: relative;
+            top: 46cm
+          }
+          .part7{
+            position: relative;
+            top: 57cm;
+          }
+          .part8{
+            position: relative;
+            top: 66.5cm;
+          }
+          .part9{
+            position: relative;
+            top: 80.5cm;
+          }
+          .part10{
+            position: relative;
+            top: 63.5cm;
+          }
+          .part11{
+            position: relative;
+            top:100cm
+          }
+          .part12{
+            position: relative;
+            top: 109.5cm;
+          }
+          .ServiceNumleft {
+            position: absolute;
+            top: 28cm;
+            left: 162px;
+            font-size: 60px;
+            font-weight: 700;
+            color: #ebcd1e;
+          }
+          .ServiceMeetleft {
+            font-size: 30px;
+            text-transform: uppercase;
+            font-weight: 700;
+            color: #333333;
+            position: absolute;
+            top: 30cm;
+            left: 160px;
+            width: 250px;
+          }
+          .ServiceDetailleft {
+            color: black;
+            font-size: 15px;
+            width:380px;
+            vertical-align: middle;
+            position: absolute;
+            top: 31.5cm;
+            left: 162px;
+           
+            text-align: center;
+          }
+          .ServiceDetailRight {
+            color: black;
+            font-size: 15px;
+            width: 380px;
+            vertical-align: middle;
+            position: absolute;
+            text-align: center;
+            left: 160px;
+            top: 170px;
+          }
+          .ServiceNumRight {
+            position: absolute;
+            top: 50px;
+            left: 160px;
+            font-size: 60px;
+            font-weight: 700;
+            color: #ebcd1e;
+          }
+          .ServiceMeetRight {
+             font-size: 30px;
+            text-transform: uppercase;
+            font-weight: 700;
+            color: #333333;
+            position: absolute;
+            top: 120px;
+            left: 162px;
+          }
+
+          .card_img_3 {
+            width: 380px;
+            height: 250px;
+            position: absolute;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+            left: 160px;
+          }
+          .card_img_4 {
+            width: 380px;
+            height: 250px;
+            position: absolute;
+            top: 100px;
+            left: 160px;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+          }
+          .card_title_3 {
+            font-size: 22px;
+            font-weight: 700;
+            position: absolute;
+            text-align: center;
+            width: 150px;
+            top: 265px;
+            left: 160px;
+          }
+          .card_text_3 {
+            color: black;
+            font-size: 15px;
+            position: absolute;
+            top: 305px;
+            left: 160px;
+            width: 350px;
+            text-align: center;
+          }
+          .card_title_4 {
+            font-size: 22px;
+            font-weight: 700;
+            text-align: center;
+            width: 150px;
+            position: absolute;
+            top: 369px;
+            left: 170px;
+          }
+          .card_text_4 {
+            color: black;
+            font-size: 15px;
+            position: absolute;
+            top: 409px;
+            width: 350px;
+            text-align: center;
+            left: 170px;
+          }
+          .stretched_link_3 {
+            position: absolute;
+            margin-bottom: 50px;
+            box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+            background-color: black;
+            color: #b19777;
+            width: 150px;
+            height: 45px;
+            top: 375px;
+            left: 180px;
+            border-radius: 8px;
+          }
+          .stretched_link_4 {
+            position: absolute;
+            margin-bottom: 50px;
+            box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+            background-color: black;
+            color: #b19777;
+            width: 150px;
+            height: 45px;
+            top: 490px;
+            left: 180px;
+            border-radius: 8px;
+          }
+    }
+
+   /* ---------------------------------------------------------------------------------------------------------- */
+   @media screen and (min-width: 990px) and (max-width: 1250px) {
+    *{
+      margin: 0;
+      padding:0;
+  }
+  .servicePart2{
+    background-color: #FCF8F8;
+    height: 390vh;
+  }
+  .ServiceMainPic {
+    width: 100%;
+    height: 600px;
+    opacity: 20px;
+    margin-bottom: 50px;
+    margin-top: -20px;
+  }
+  .ServiceWallcol{
+    position: relative;
+    top: -130px;
+    left: 10px;
+    width: 400px;
+    height: 170px;
+    background-color: #f8f4f3;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    opacity: 0.9;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .serviceContact{
+    position: relative;
+    top:-75px;
+    left:5%;
+    font-size:30px;
+    color: black;
+}
+.serviceSocial{
+  font-size: 30px;
+  position: relative;
+  top: -50px;
+  left: 5%;
+}
+.ServiceHomeHeading{
+  position: relative;
+  top:25px;
+ margin-left:35px; 
+ color:black;
+ font-size:25px
+}
+.button{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  position: relative;
+  left:12%;
+  width:150px;
+  top: 30px;
+  height:45px;
+  border-radius:8px;
+  border:none;
+  background-color:rgb(17, 16, 16);
+  color: #B19777;
+}
+
+.servicePart2_1{
+  display:grid;
+  grid-template-columns: repeat(auto-fit,minmax(420px,1fr))  ;
+  grid-template-rows: 150px ;
+}
+.part1{
+  position:relative;
+}
+.part2{
+  position:relative;
+}
+.card_img_1 {
+  width: 350px;
+  height: 250px;
+  position: absolute;
+  left:18%;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card_img_2 {
+  width: 350px;
+  height: 250px;
+  position: absolute;
+ left:10%;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card-title {
+  font-size: 22px;
+  font-weight: 700;
+  position: absolute;
+  left:20%;
+  width: 150px;
+  top:280px
+
+}
+.card-text {
+  color: black;
+  font-size: 15px;
+  position: absolute;
+  left:20%;
+  width: 350px;
+  top:320px
+ 
+}
+.card_title_2 {
+  font-size: 22px;
+  font-weight: 700;
+  position: absolute;
+  left: 13%;
+  width: 150px;
+  top:280px
+}
+.card_text_2 {
+  color: black;
+  font-size: 15px;
+  position: absolute;
+  left: 13%;
+  width: 350px;
+  top:320px
+}
+.stretched-link {
+  position: absolute;
+  left:20%;
+  margin-bottom: 50px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: black;
+  color: #b19777;
+  width: 150px;
+  height: 45px;
+  border-radius: 8px;
+  top:380px
+}
+.stretched_link_2 {
+  position: absolute;
+  left: 13%;
+  top:380px;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+  background-color: black;
+  color: #b19777;
+  width: 150px;
+  height: 45px;
+  border-radius: 8px;
+}
+.part3{
+  position:relative;
+}
+.part4{
+  position:relative;
+}
+.part3{
+  position: relative;
+  top: -31cm;
+}
+.part4{
+  position: relative;
+  top: 40px;
+}
+.part5{
+  position: relative;
+  top: 18cm;
+}
+.part6{
+  position: relative;
+  top: 44cm
+}
+.part7{
+  position: relative;
+  top: -9.5cm;
+}
+.part8{
+  position: relative;
+  top: -9.5cm;
+}
+.part9{
+  position: relative;
+  top: -9.8cm;
+}
+.part10{
+  position: relative;
+  top: 22cm;
+}
+.part11{
+  position: relative;
+  top: 40cm;
+}
+.part12{
+  position: relative;
+  top: 66cm;
+}
+
+.ServiceRight{
+  height: 349px;
+  width: 360px;
+  position: absolute;
+  left: 10%;
+  top: 40cm;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+.ServiceNumleft {
+  position: absolute;
+  left: 56%;
+  top: 300px;
+  font-size: 60px;
+  font-weight: 700;
+  color: #ebcd1e;
+}
+.ServiceMeetleft {
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #333333;
+  position: absolute;
+  top: 370px;
+  left: 56%;
+  width: 250px;
+}
+.ServiceDetailleft {
+  color: black;
+    font-size: 15px;
+    width: 370px;
+    vertical-align: middle;
+    position: absolute;
+    top: 420px;
+    left: 56%;
+}
+.ServiceDetailRight {
+  color: black;
+  font-size: 15px;
+  width: 375px;
+  vertical-align: middle;
+  position: absolute;
+  text-align: center;
+  left: 95px;
+  top: 170px;
+}
+.ServiceNumRight {
+  position: absolute;
+  top: 50px;
+  left: 100px;
+  font-size: 60px;
+  font-weight: 700;
+  color: #ebcd1e;
+}
+.ServiceMeetRight {
+   font-size: 30px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #333333;
+  position: absolute;
+  top: 120px;
+  left: 100px;
+}
+.ServiceOneRight{
+  height: 349px;
+  width: 360px;
+  position: absolute;
+  left: 55%;
+  top: -24.8cm;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+.card_img_3 {
+  width: 380px;
+  height: 250px;
+  position: absolute;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+  left: 90px;
+  top: 62cm;
+}
+.card_img_4 {
+  width: 380px;
+  height: 250px;
+  position: absolute;
+  top: 62cm;
+  left: 54%;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+.card_title_3 {
+  font-size: 22px;
+    font-weight: 700;
+    position: absolute;
+    text-align: center;
+    width: 150px;
+    top: 69.5cm;
+    left: 9%;
+}
+.card_text_3 {
+  color: black;
+  font-size: 15px;
+  position: absolute;
+  top: 70.5cm;
+  left: 11%;
+  width: 350px;
+  text-align: center;
+}
+.card_title_4 {
+  font-size: 22px;
+  font-weight: 700;
+  text-align: center;
+  width: 150px;
+  position: absolute;
+  top: 69.5cm;
+  left: 55%;
+}
+.card_text_4 {
+  color: black;
+  font-size: 15px;
+  position: absolute;
+  top: 70.5cm;
+  width: 350px;
+  text-align: center;
+  left: 56%;
+}
+.stretched_link_3 {
+  position: absolute;
+  margin-bottom: 50px;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+  background-color: black;
+  color: #b19777;
+  width: 150px;
+  height: 45px;
+  top: 72.5cm;
+  left: 12%;
+  border-radius: 8px;
+}
+.stretched_link_4 {
+  position: absolute;
+  margin-bottom: 50px;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+  background-color: black;
+  color: #b19777;
+  width: 150px;
+  height: 45px;
+  top: 72.5cm;
+    left: 57%;
+  border-radius: 8px;
+}
+
+
+
+
+
+  }
+    
+
+
+      /* ---------------------------------------------------------------------------------------------------------- */
+      @media screen and (min-width: 1250px) and (max-width: 1560px) {
+        *{
+          margin: 0;
+          padding:0;
+      }
+      /* .ServicePart1{
+        display:grid;
+        grid-template-columns: repeat(auto-fit,minmax(350px,1fr))  ;
+        grid-template-rows: 150px ; 
+      } */
+      .servicePart2{
+        background-color: #FCF8F8;
+        height: 390vh;
+      }
+      .ServiceMainPic {
+        width: 100%;
+        height: 600px;
+        opacity: 20px;
+        margin-bottom: 50px;
+        margin-top: -20px;
+      }
+      .ServiceWallcol{
+        position: relative;
+        top: -130px;
+        left: 10px;
+        width: 400px;
+        height: 170px;
+        background-color: #f8f4f3;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        opacity: 0.9;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      }
+      .serviceContact{
+        position: relative;
+        top:-100px;
+        left:5%;
+        font-size:30px;color: black; 
+    }
+    .ServiceHomeHeading{
+      position: relative;
+      top:25px;
+     margin-left:35px; 
+     color: black;
+     font-size:25px
+    }
+    .serviceSocial{
+      position: relative;
+      top:-100px;
+      left:5%;
+      font-size:30px
+    }
+    .button{
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      position: relative;
+      left:12%;
+      width:150px;
+      top: 30px;
+      height:45px;
+      border-radius:8px;
+      border:none;
+      background-color:rgb(17, 16, 16);
+      color: #B19777;
+    }
+    .servicePart2_1{
+      display:grid;
+      grid-template-columns: repeat(auto-fit,minmax(420px,1fr))  ;
+      grid-template-rows: 150px ;
+    }
+    .part1{
+      position:relative;
+    }
+    .part2{
+      position:relative;
+    }
+    .card_img_1 {
+      width: 350px;
+      height: 250px;
+      position: absolute;
+      left:18%;
+      border-radius: 15px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    .card_img_2 {
+      width: 350px;
+      height: 250px;
+      position: absolute;
+     left:10%;
+      border-radius: 15px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    .card-title {
+      font-size: 22px;
+      font-weight: 700;
+      position: absolute;
+      left:20%;
+      width: 150px;
+      top:280px
+    
+    }
+    .card-text {
+      color: black;
+      font-size: 15px;
+      position: absolute;
+      left:20%;
+      width: 350px;
+      top:320px
+     
+    }
+    .card_title_2 {
+      font-size: 22px;
+      font-weight: 700;
+      position: absolute;
+      left: 13%;
+      width: 150px;
+      top:280px
+    }
+    .card_text_2 {
+      color: black;
+      font-size: 15px;
+      position: absolute;
+      left: 13%;
+      width: 350px;
+      top:320px
+    }
+    .stretched-link {
+      position: absolute;
+      left:20%;
+      margin-bottom: 50px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      background-color: black;
+      color: #b19777;
+      width: 150px;
+      height: 45px;
+      border-radius: 8px;
+      top:380px
+    }
+    .stretched_link_2 {
+      position: absolute;
+      left: 13%;
+      top:380px;
+      box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+      background-color: black;
+      color: #b19777;
+      width: 150px;
+      height: 45px;
+      border-radius: 8px;
+    }
+    .part3{
+      position:relative;
+    }
+    .part4{
+      position:relative;
+    }
+    .part3{
+      position: relative;
+      top: -31cm;
+    }
+    .part4{
+      position: relative;
+      top: 40px;
+    }
+    .part5{
+      position: relative;
+      top: 18cm;
+    }
+    .part6{
+      position: relative;
+      top: 44cm
+    }
+    .part7{
+      position: relative;
+      top: -9.5cm;
+    }
+    .part8{
+      position: relative;
+      top: -9.5cm;
+    }
+    .part9{
+      position: relative;
+      top: -9.8cm;
+    }
+    .part10{
+      position: relative;
+      top: 22cm;
+    }
+    .part11{
+      position: relative;
+      top: 40cm;
+    }
+    .part12{
+      position: relative;
+      top: 66cm;
+    }
+    
+    .ServiceRight{
+      height: 349px;
+      width: 360px;
+      position: absolute;
+      left: 10%;
+      top: 40cm;
+      border-radius: 15px;
+      box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    }
+    .ServiceNumleft {
+      position: absolute;
+      left: 56%;
+      top: 300px;
+      font-size: 60px;
+      font-weight: 700;
+      color: #ebcd1e;
+    }
+    .ServiceMeetleft {
+      font-size: 30px;
+      text-transform: uppercase;
+      font-weight: 700;
+      color: #333333;
+      position: absolute;
+      top: 370px;
+      left: 56%;
+      width: 250px;
+    }
+    .ServiceDetailleft {
+      color: black;
+        font-size: 15px;
+        width: 370px;
+        vertical-align: middle;
+        position: absolute;
+        top: 420px;
+        left: 56%;
+    }
+    .ServiceDetailRight {
+      color: black;
+      font-size: 15px;
+      width: 375px;
+      vertical-align: middle;
+      position: absolute;
+      text-align: center;
+      left: 95px;
+      top: 170px;
+    }
+    .ServiceNumRight {
+      position: absolute;
+      top: 50px;
+      left: 100px;
+      font-size: 60px;
+      font-weight: 700;
+      color: #ebcd1e;
+    }
+    .ServiceMeetRight {
+       font-size: 30px;
+      text-transform: uppercase;
+      font-weight: 700;
+      color: #333333;
+      position: absolute;
+      top: 120px;
+      left: 100px;
+    }
+    .ServiceOneRight{
+      height: 349px;
+      width: 360px;
+      position: absolute;
+      left: 55%;
+      top: -24.8cm;
+      border-radius: 15px;
+      box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    }
+    .card_img_3 {
+      width: 380px;
+      height: 250px;
+      position: absolute;
+      border-radius: 15px;
+      box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+      left: 90px;
+      top: 62cm;
+    }
+    .card_img_4 {
+      width: 380px;
+      height: 250px;
+      position: absolute;
+      top: 62cm;
+      left: 54%;
+      border-radius: 15px;
+      box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    }
+    .card_title_3 {
+      font-size: 22px;
+        font-weight: 700;
+        position: absolute;
+        text-align: center;
+        width: 150px;
+        top: 69.5cm;
+        left: 9%;
+    }
+    .card_text_3 {
+      color: black;
+      font-size: 15px;
+      position: absolute;
+      top: 70.5cm;
+      left: 11%;
+      width: 350px;
+      text-align: center;
+    }
+    .card_title_4 {
+      font-size: 22px;
+      font-weight: 700;
+      text-align: center;
+      width: 150px;
+      position: absolute;
+      top: 69.5cm;
+      left: 55%;
+    }
+    .card_text_4 {
+      color: black;
+      font-size: 15px;
+      position: absolute;
+      top: 70.5cm;
+      width: 350px;
+      text-align: center;
+      left: 56%;
+    }
+    .stretched_link_3 {
+      position: absolute;
+      margin-bottom: 50px;
+      box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+      background-color: black;
+      color: #b19777;
+      width: 150px;
+      height: 45px;
+      top: 72.5cm;
+      left: 12%;
+      border-radius: 8px;
+    }
+    .stretched_link_4 {
+      position: absolute;
+      margin-bottom: 50px;
+      box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+      background-color: black;
+      color: #b19777;
+      width: 150px;
+      height: 45px;
+      top: 72.5cm;
+        left: 57%;
+      border-radius: 8px;
+    }
+ 
+      }
+/* -------------------------------------------------------------- */
+     
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  .Stitle{
+    color: #b19777;
+    margin-top:10px;
+    text-shadow: 2px 2px 5px #91806b;
+}
+.SfooterHome {
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(400px,1fr))  ;
+    grid-template-rows: 280px ;
+    position: relative;
+    top: 2cm;
+  background-color: #252430;
+}
+.SfooterHeadHome{
+  text-align: center;
+  color: white;
+  margin-top:20px
+}
+
+.SfooterBottomHome {
+  position: relative;
+  top: 41px;
+  background-color: #252430;
+  height: 50px;
+}
+#copyrightHome {
+  color: white;
+  margin-top: 0px;
+  /* margin-left: 50px; */
+  font-size: 15px
+}
+p {
+  margin-bottom: 0rem;
+}
+#termsHome {
+  color: white;
+  margin-top: 0px;
+  /* margin-left: 690px; */
+  font-size: 15px;
+}
+
+.SfooterContactHome {
+  color: white;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+.SfooterAddressHome {
+  color: white;
+  font-size: 15px;
+  margin-top:20px
+}
+.SfooterProjectsHome {
+  color: white;
+  font-size: 25px;
+}
+.SfooterProjectHome {
+  color: white;
+  margin-top: 20px;
+  font-size: 15px;
+}
+.SfooterPhoneHome {
+  margin-bottom: -1rem;
+  font-size: 15px;
+  color: white;
+  margin-top:20px
+}
+
+.SfooterPHome,
+.SfooterCHome,
+.SfooterHHome {
+  position: relative;
+ 
+  margin-top: 60px;
+  text-align: center;
+}
+@media screen and (min-width: 990px) and (max-width: 1250px) {
+    *{
+        margin: 0;
+        padding: 0;
+      }
+      .SfooterHome {
+        display:grid;
+        grid-template-columns:repeat(auto-fit,minmax(320px,1fr))  ;
+        grid-template-rows: 280px ;
+        position: relative;
+        top: 2cm;
+         background-color: #252430;
+    }
+    .SfooterPHome,
+.SfooterCHome,
+.SfooterHHome {
+  position: relative;
+  margin-top: 60px;
+
+}
+}
+@media screen and (min-width: 768px) and (max-width: 990px) {
+    *{
+        margin: 0;
+        padding: 0;
+      }
+      .SfooterHome {
+        display:grid;
+        grid-template-columns:repeat(auto-fit,minmax(250px,1fr))  ;
+        grid-template-rows: 280px ;
+        position: relative;
+        top: 35px; 
+         background-color: #252430;
+    } 
+}
+@media screen and (min-width: 550px) and (max-width: 768px) {
+    *{
+        margin: 0;
+        padding: 0;
+      }
+      .Stitle{
+        color: #b19777;
+        margin-top:10px;
+       margin-left: 10px;
+        text-shadow: 2px 2px 5px #91806b;
+    }
+    .SfooterHome {
+        position: relative;
+        top: 2cm;
+        height:700px
+    }
+   .SfooterCHome{
+        position: absolute;
+        top:30%;
+        left: 20%;
+    }
+    .SfooterPHome{
+        position: absolute;
+        top:65%;
+        left: 35%;
+    }
+}
+@media screen and (min-width: 410px) and (max-width: 550px) {
+    *{
+        margin: 0;
+        padding: 0;
+      }
+      .Stitle{
+        color: #b19777;
+        margin-top:10px;
+       margin-left: 10px;
+        text-shadow: 2px 2px 5px #91806b;
+    }
+    .SfooterHome {
+        position: relative;
+        top: 2cm;
+        height:700px
+    }
+   .SfooterCHome{
+        position: absolute;
+        top:30%;
+        left: 15%;
+    }
+    .SfooterPHome{
+        position: absolute;
+        top:65%;
+        left: 30%;
+    }
+}
